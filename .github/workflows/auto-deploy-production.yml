@@ -83,7 +83,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: production-k8s-deployment-configs
-          path: deployments
+          path: tokenlist.api.instadapp.io.production.yml
           retention-days: 1
 
   deploy_production:
