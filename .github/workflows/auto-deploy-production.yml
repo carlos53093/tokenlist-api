@@ -1,0 +1,118 @@
+name: production-deployment-automation
+
+on:
+  push:
+    branches:
+      - "master"
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build_image:
+    name: Build Image
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Login to Container Registry
+        uses: docker/login-action@v1.10.0
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract Metadata for Docker
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            event=push,type=sha,format=short
+            event=tag,type=ref
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+        with:
+          context: .
+          push: true
+          platforms: linux/amd64
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha, scope=tokenlist-api
+          cache-to: type=gha, scope=tokenlist-api, mode=max
+
+      - name: Update Deployment file
+        run: |
+          #!/bin/bash
+
+          set -e
+          set -o pipefail
+
+          # Convert this to small case
+          MATCH="${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}"
+          MATCH=${MATCH,,}
+
+          # Write the contents to a file
+          echo "${{ steps.meta.outputs.tags }}" > tmp
+
+          # Check if there is a vX.Y.Z | v.X.Y tag
+          TAG=$({ grep -Poh "$MATCH:v\d+.\d+.?\d?" tmp || true; })
+
+          # If there is not, Go back to using sha-<short-commit-hash>
+          if [ -z "${TAG}" ]; then
+            TAG=$({ grep -Poh "$MATCH:sha-.+" tmp || true; })
+          fi
+
+          RESP=$({ grep -Poh '<IMAGE>' tokenlist.api.instadapp.io.production.yml || true; })
+          if [ -z "${RESP}" ]; then
+            echo "tokenlist.api.instadapp.io.production.yml does not contain <IMAGE> marker"
+            exit 1;
+          fi
+          sed -i "s|<IMAGE>|$TAG|" tokenlist.api.instadapp.io.production.yml
+
+      - name: Upload Deployment file
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-k8s-deployment-configs
+          path: deployments
+          retention-days: 1
+
+  deploy_production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    environment:
+      name: "Production"
+      url: "https://tokenlist.api.instadapp.io"
+    needs: build_image
+    permissions:
+      contents: read
+      packages: read
+    steps:
+      - name: Fetch Deployment file
+        id: download
+        uses: actions/download-artifact@v2
+        with:
+          name: production-k8s-deployment-configs
+      - name: Read CA Certificate
+        run: |
+          # Write CA to disk
+          #!/bin/sh
+          echo ${{ secrets.NYC_KUBERNETES_CERTIFICATE }} | base64 -d > ca.crt
+      - name: Deploy to NYC Cluster
+        run: kubectl apply -f ${{ steps.download.outputs.download-path }} --kubeconfig=/dev/null --server="${{ secrets.NYC_KUBERNETES_ADDRESS }}" --token="${{ secrets.NYC_KUBERNETES_TOKEN }}" --certificate-authority=ca.crt
+      - name: Verify NYC Deployment
+        run: kubectl rollout status deployment/tokenlist -n api --server="${{ secrets.NYC_KUBERNETES_ADDRESS }}" --token="${{ secrets.NYC_KUBERNETES_TOKEN }}" --certificate-authority=ca.crt
+      - name: Erase CA Certificate
+        run: |
+          # Erase CA from disk
+          #!/bin/sh
+          rm ca.crt
