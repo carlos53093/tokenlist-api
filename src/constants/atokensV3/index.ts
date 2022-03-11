@@ -2,7 +2,7 @@ import polygon from './polygon'
 import arbitrum from './arbitrum'
 import avalanche from './avalanche'
 import optimism from './optimism'
-import { createNetworkList } from 'src/utils'
+import { createNetworkList } from '../../utils'
 
 export default createNetworkList({
   polygon,

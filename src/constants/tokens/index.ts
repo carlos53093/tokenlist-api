@@ -4,7 +4,7 @@ import avalanche from './avalanche'
 import optimism from './optimism'
 import mainnet from './mainnet'
 import fantom from './fantom'
-import { createNetworkList } from 'src/utils'
+import { createNetworkList } from '../../utils'
 
 export default createNetworkList({
   polygon,
