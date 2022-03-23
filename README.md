@@ -8,6 +8,8 @@ GET https://tokenlist.api.instadapp.io/tokens
 
 Note: you can add logoURI to `src/constants/tokens.js` per token or `src/utils/index.js` per symbol.
 
+you can check tokens on https://tokenlist.api.instadapp.io/test
+
 ## Aave Tokens
 
 ```
