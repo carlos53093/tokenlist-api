@@ -6,7 +6,7 @@
 GET https://tokenlist.api.instadapp.io/tokens
 ```
 
-Note: you can add logoURI to `src/constants/tokens.ts` per token or `src/utils/index.ts` per symbol.
+Note: you can add logoURI to `src/constants/tokens.ts` per token or `src/utils/index.ts` per symbol/key.
 
 you can check tokens on https://tokenlist.api.instadapp.io/test
 
