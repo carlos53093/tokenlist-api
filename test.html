@@ -82,7 +82,7 @@
           });
 
           onMounted(async () => {
-            const response = await fetch(window.origin + "/tokens");
+            const response = await fetch("/tokens");
 
             const data = await response.json();
 
