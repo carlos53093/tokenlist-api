@@ -3,7 +3,7 @@ import tokens from "../constants/atokens";
 
 @JsonController()
 export class ATokensController {
-  @Get("/atokens", { transformResponse: false })
+  @Get("/aave/tokens", { transformResponse: false })
   public index() {
     return tokens;
   }

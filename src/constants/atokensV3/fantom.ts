@@ -41,16 +41,16 @@ export default createTokenUtils([
     factor: 0.825,
     root: 'usdc'
   },
-  {
-    key: 'ausdt',
-    type: 'atoken',
-    symbol: 'AUSDT',
-    name: 'Aave USDT',
-    address: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
-    decimals: 6,
-    factor: 0.75,
-    root: 'usdt'
-  },
+  // {
+  //   key: 'ausdt',
+  //   type: 'atoken',
+  //   symbol: 'AUSDT',
+  //   name: 'Aave USDT',
+  //   address: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
+  //   decimals: 6,
+  //   factor: 0,
+  //   root: 'usdt',
+  // },
   {
     key: 'awbtc',
     type: 'atoken',
@@ -72,13 +72,43 @@ export default createTokenUtils([
     root: 'aave'
   },
   {
-    key: 'awavax',
+    key: 'aftm',
     type: 'atoken',
-    symbol: 'AWAVAX',
-    name: 'Aave WAVAX',
+    symbol: 'AFTM',
+    name: 'Aave FTM',
     address: '0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97',
     decimals: 18,
-    factor: 0.65,
-    root: 'avax'
+    factor: 0.25,
+    root: 'ftm'
+  },
+  {
+    key: 'asushi',
+    type: 'atoken',
+    symbol: 'ASUSHI',
+    name: 'Aave SUSHI',
+    address: '0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA',
+    decimals: 18,
+    factor: 0.2,
+    root: 'sushi'
+  },
+  {
+    key: 'acrv',
+    type: 'atoken',
+    symbol: 'ACRV',
+    name: 'Aave CRV',
+    address: '0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf',
+    decimals: 18,
+    factor: 0.75,
+    root: 'crv'
+  },
+  {
+    key: 'afusdt',
+    type: 'atoken',
+    symbol: 'AFUSDT',
+    name: 'Aave FUSDT',
+    address: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
+    decimals: 6,
+    factor: 0.75,
+    root: 'fusdt'
   }
 ])

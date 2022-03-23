@@ -48,5 +48,7 @@ export default createTokenUtils([
   { key: 'renfil', type: 'token', symbol: 'renFIL', name: 'renFIL', address: '0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5', decimals: 18, isStableCoin: false },
   { key: 'frax', type: 'token', symbol: 'FRAX', name: 'Frax Protocol', address: '0x853d955aCEf822Db058eb8505911ED77F175b99e', decimals: 18, isStableCoin: true },
   { key: 'fei', type: 'token', symbol: 'FEI', name: 'Fei Protocol', address: '0x956F47F50A910163D8BF957Cf5846D573E7f87CA', decimals: 18, isStableCoin: true },
-  { key: 'steth', type: 'token', symbol: 'stETH', name: 'Lido stETH Token', address: '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84', decimals: 18, isStableCoin: false }
+  { key: 'steth', type: 'token', symbol: 'stETH', name: 'Lido stETH Token', address: '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84', decimals: 18, isStableCoin: false },
+  { key: 'wsteth', type: 'token', symbol: 'wstETH', name: 'Lido Wrapped stETH Token', address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', decimals: 18, isStableCoin: false },
+  { key: 'apecoin', type: 'token', symbol: 'ApeCoin', name: 'APE Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false }
 ])

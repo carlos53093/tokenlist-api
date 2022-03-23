@@ -3,7 +3,7 @@ import ctokens from "../constants/ctokens";
 
 @JsonController()
 export class CTokensController {
-  @Get("/ctokens", { transformResponse: false })
+  @Get("/compound/tokens", { transformResponse: false })
   public index() {
     return ctokens;
   }
