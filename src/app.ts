@@ -4,10 +4,15 @@ import { useExpressServer } from "routing-controllers";
 import morgan from "morgan";
 import dotenv from "dotenv";
 import { CustomErrorHandler } from "./middlewares/CustomErrorHandler";
+import path from "path";
 
 dotenv.config();
 
 const expressApp: Application = express();
+
+expressApp.get('/test', (req, res) => {
+  res.sendFile(path.join(__dirname, '../test.html'));
+})
 
 // Show routes called in console during development
 process.env.NODE_ENV === "development" && expressApp.use(morgan("dev"));
