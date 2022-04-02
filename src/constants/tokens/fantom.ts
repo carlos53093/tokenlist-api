@@ -8,7 +8,7 @@ export default createTokenUtils([
     name: 'fantom',
     address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'wftm',
@@ -17,7 +17,7 @@ export default createTokenUtils([
     name: 'Wrapped Fantom',
     address: '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'weth',
@@ -26,7 +26,7 @@ export default createTokenUtils([
     name: 'Wrapped Ethereum',
     address: '0x74b23882a30290451A17c44f4F05243b6b58C76d',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'usdc',
@@ -35,7 +35,7 @@ export default createTokenUtils([
     name: 'USD Coin',
     address: '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75',
     decimals: 6,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'dai',
@@ -44,7 +44,7 @@ export default createTokenUtils([
     name: 'DAI Stable',
     address: '0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E',
     decimals: 18,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'btc',
@@ -53,7 +53,7 @@ export default createTokenUtils([
     name: 'Bitcoin',
     address: '0x321162Cd933E2Be498Cd2267a90534A804051b11',
     decimals: 8,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'link',
@@ -62,7 +62,7 @@ export default createTokenUtils([
     name: 'Chainlink token',
     address: '0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'fusdt',
@@ -71,7 +71,7 @@ export default createTokenUtils([
     name: 'Frapper usdt token',
     address: '0x049d68029688eAbF473097a2fC38ef61633A3C7A',
     decimals: 6,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'aave',
@@ -80,7 +80,7 @@ export default createTokenUtils([
     name: 'Aave token',
     address: '0x6a07A792ab2965C72a5B8088d3a069A7aC3a993B',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'crv',
@@ -89,7 +89,7 @@ export default createTokenUtils([
     name: 'CRV Token',
     address: '0x1E4F97b9f9F913c46F1632781732927B9019C68b',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'sushi',
@@ -98,6 +98,6 @@ export default createTokenUtils([
     name: 'Sushi Token',
     address: '0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC',
     decimals: 18,
-    isStableCoin: false
-  }
+    isStableCoin: false,
+  },
 ])

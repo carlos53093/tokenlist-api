@@ -33,5 +33,6 @@ export default createTokenUtils([
   { key: 'arenfil', type: 'atoken', symbol: 'ARENFIL', name: 'Aave renFIL', address: '0x514cd6756CCBe28772d4Cb81bC3156BA9d1744aa', decimals: 18, factor: 0, root: 'renfil' },
   { key: 'afrax', type: 'atoken', symbol: 'AFRAX', name: 'Aave FRAX', address: '0xd4937682df3C8aEF4FE912A96A74121C0829E664', decimals: 18, factor: 0, root: 'frax' },
   { key: 'afei', type: 'atoken', symbol: 'AFEI', name: 'Aave FEI', address: '0x683923dB55Fead99A79Fa01A27EeC3cB19679cC3', decimals: 18, factor: 0, root: 'fei' },
-  { key: 'asteth', type: 'atoken', symbol: 'ASTETH', name: 'Aave stETH', address: '0x1982b2F5814301d4e9a8b0201555376e62F82428', decimals: 18, factor: 0.7, root: 'steth' }
+  { key: 'asteth', type: 'atoken', symbol: 'ASTETH', name: 'Aave stETH', address: '0x1982b2F5814301d4e9a8b0201555376e62F82428', decimals: 18, factor: 0.7, root: 'steth' },
+  { key: 'aust', type: 'atoken', symbol: 'AUST', name: 'Aave UST', address: '0xc2e2152647F4C26028482Efaf64b2Aa28779EFC4', decimals: 6, factor: 0, root: 'ust' },
 ])

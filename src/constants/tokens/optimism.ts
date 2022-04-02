@@ -8,7 +8,7 @@ export default createTokenUtils([
     name: 'Ethereum',
     address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'weth',
@@ -17,7 +17,7 @@ export default createTokenUtils([
     name: 'Wrapped Ethereum',
     address: '0x4200000000000000000000000000000000000006',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'usdc',
@@ -26,7 +26,7 @@ export default createTokenUtils([
     name: 'USD Coin',
     address: '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
     decimals: 6,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'usdt',
@@ -35,7 +35,7 @@ export default createTokenUtils([
     name: 'Tether USD Coin',
     address: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
     decimals: 6,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'dai',
@@ -44,7 +44,7 @@ export default createTokenUtils([
     name: 'DAI Stable',
     address: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
     decimals: 18,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'uni',
@@ -53,7 +53,7 @@ export default createTokenUtils([
     name: 'Uniswap Token',
     address: '0x6fd9d7AD17242c41f7131d257212c54A0e816691',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'wbtc',
@@ -62,7 +62,7 @@ export default createTokenUtils([
     name: 'Wrapped BTC',
     address: '0x68f180fcCe6836688e9084f035309E29Bf0A2095',
     decimals: 8,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'link',
@@ -71,7 +71,7 @@ export default createTokenUtils([
     name: 'ChainLink LINK',
     address: '0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6',
     decimals: 18,
-    isStableCoin: false
+    isStableCoin: false,
   },
   {
     key: 'susd',
@@ -80,7 +80,7 @@ export default createTokenUtils([
     name: 'Synth SUSD',
     address: '0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9',
     decimals: 18,
-    isStableCoin: true
+    isStableCoin: true,
   },
   {
     key: 'aave',
@@ -89,6 +89,6 @@ export default createTokenUtils([
     name: 'AAVE',
     address: '0x76FB31fb4af56892A25e32cFC43De717950c9278',
     decimals: 18,
-    isStableCoin: false
-  }
+    isStableCoin: false,
+  },
 ])

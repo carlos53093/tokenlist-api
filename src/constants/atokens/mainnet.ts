@@ -22,5 +22,5 @@ export default createTokenUtils([
   { key: 'ayfi', type: 'atoken', symbol: 'AYFI', name: 'Aave YFI', address: '0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd', decimals: 18, factor: 0.4, root: 'yfi' },
   { key: 'azrx', type: 'atoken', symbol: 'AZRX', name: 'Aave ZRX', address: '0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f', decimals: 18, factor: 0.6, root: 'zrx' },
   { key: 'arep', type: 'atoken', symbol: 'AREP', name: 'Aave REP', address: '0x71010A9D003445aC60C4e6A7017c1E89A477B438', decimals: 18, factor: 0.35, root: 'rep' },
-  { key: 'aenj', type: 'atoken', symbol: 'AENJ', name: 'Aave ENJ', address: '0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40', decimals: 18, factor: 0.55, root: 'enj' }
+  { key: 'aenj', type: 'atoken', symbol: 'AENJ', name: 'Aave ENJ', address: '0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40', decimals: 18, factor: 0.55, root: 'enj' },
 ])

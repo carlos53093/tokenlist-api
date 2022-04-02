@@ -11,5 +11,5 @@ export default createTokenUtils([
   { key: 'cuni', type: 'ctoken', symbol: 'CUNI', name: 'Compound UNI', address: '0x35A18000230DA775CAc24873d00Ff85BccdeD550', decimals: 8, factor: 0.6, root: 'uni', id: 'UNI-A' },
   { key: 'cwbtc', type: 'ctoken', symbol: 'CWBTC', name: 'Compound WBTC', address: '0xc11b1268c1a384e55c48c2391d8d480264a3a7f4', decimals: 8, factor: 0.6, root: 'wbtc', id: 'WBTC-A' },
   { key: 'cwbtc', type: 'ctoken', symbol: 'CWBTC', name: 'Compound WBTC', address: '0xccF4429DB6322D5C611ee964527D42E5d685DD6a', decimals: 8, factor: 0.6, root: 'wbtc', id: 'WBTC-B' },
-  { key: 'ccomp', type: 'ctoken', symbol: 'CCOMP', name: 'Compound COMP', address: '0x70e36f6BF80a52b3B46b3aF8e106CC0ed743E8e4', decimals: 8, factor: 0.6, root: 'comp', id: 'COMP-A' }
+  { key: 'ccomp', type: 'ctoken', symbol: 'CCOMP', name: 'Compound COMP', address: '0x70e36f6BF80a52b3B46b3aF8e106CC0ed743E8e4', decimals: 8, factor: 0.6, root: 'comp', id: 'COMP-A' },
 ])

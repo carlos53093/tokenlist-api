@@ -50,5 +50,6 @@ export default createTokenUtils([
   { key: 'fei', type: 'token', symbol: 'FEI', name: 'Fei Protocol', address: '0x956F47F50A910163D8BF957Cf5846D573E7f87CA', decimals: 18, isStableCoin: true },
   { key: 'steth', type: 'token', symbol: 'stETH', name: 'Lido stETH Token', address: '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84', decimals: 18, isStableCoin: false },
   { key: 'wsteth', type: 'token', symbol: 'wstETH', name: 'Lido Wrapped stETH Token', address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', decimals: 18, isStableCoin: false },
-  { key: 'apecoin', type: 'token', symbol: 'ApeCoin', name: 'APE Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false }
+  { key: 'apecoin', type: 'token', symbol: 'ApeCoin', name: 'APE Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
+  { key: 'ust', type: 'token', symbol: 'UST', name: 'UST (Wormhole)', address: '0xa693B19d2931d498c5B318dF961919BB4aee87a5', decimals: 6, isStableCoin: true },
 ])

@@ -9,7 +9,7 @@ export default createTokenUtils([
     address: '0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE',
     decimals: 18,
     factor: 0.75,
-    root: 'dai'
+    root: 'dai',
   },
   {
     key: 'alink',
@@ -19,7 +19,7 @@ export default createTokenUtils([
     address: '0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530',
     decimals: 18,
     factor: 0.5,
-    root: 'link'
+    root: 'link',
   },
   {
     key: 'aeth',
@@ -29,7 +29,7 @@ export default createTokenUtils([
     address: '0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8',
     decimals: 18,
     factor: 0.8,
-    root: 'eth'
+    root: 'eth',
   },
   {
     key: 'ausdc',
@@ -39,7 +39,7 @@ export default createTokenUtils([
     address: '0x625E7708f30cA75bfd92586e17077590C60eb4cD',
     decimals: 6,
     factor: 0.825,
-    root: 'usdc'
+    root: 'usdc',
   },
   {
     key: 'ausdt',
@@ -49,7 +49,7 @@ export default createTokenUtils([
     address: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
     decimals: 6,
     factor: 0.75,
-    root: 'usdt'
+    root: 'usdt',
   },
   {
     key: 'awbtc',
@@ -59,7 +59,7 @@ export default createTokenUtils([
     address: '0x078f358208685046a11C85e8ad32895DED33A249',
     decimals: 8,
     factor: 0.7,
-    root: 'wbtc'
+    root: 'wbtc',
   },
   {
     key: 'aaave',
@@ -69,7 +69,7 @@ export default createTokenUtils([
     address: '0xf329e36C7bF6E5E86ce2150875a84Ce77f477375',
     decimals: 18,
     factor: 0.6,
-    root: 'aave'
+    root: 'aave',
   },
   {
     key: 'awavax',
@@ -79,6 +79,6 @@ export default createTokenUtils([
     address: '0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97',
     decimals: 18,
     factor: 0.65,
-    root: 'avax'
-  }
+    root: 'avax',
+  },
 ])

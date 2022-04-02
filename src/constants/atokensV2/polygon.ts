@@ -13,5 +13,5 @@ export default createTokenUtils([
   { key: 'abal', type: 'atoken', symbol: 'ABAL', name: 'Aave BAL', address: '0xc4195D4060DaEac44058Ed668AA5EfEc50D77ff6', decimals: 18, factor: 0.2, root: 'bal' },
   { key: 'acrv', type: 'atoken', symbol: 'ACRV', name: 'Aave CRV', address: '0x3Df8f92b7E798820ddcCA2EBEA7BAbda2c90c4aD', decimals: 18, factor: 0.2, root: 'crv' },
   { key: 'adpi', type: 'atoken', symbol: 'ADPI', name: 'Aave DPI', address: '0x81fB82aAcB4aBE262fc57F06fD4c1d2De347D7B1', decimals: 18, factor: 0.2, root: 'dpi' },
-  { key: 'aghst', type: 'atoken', symbol: 'AGHST', name: 'Aave GHST', address: '0x080b5BF8f360F624628E0fb961F4e67c9e3c7CF1', decimals: 18, factor: 0.25, root: 'ghst' }
+  { key: 'aghst', type: 'atoken', symbol: 'AGHST', name: 'Aave GHST', address: '0x080b5BF8f360F624628E0fb961F4e67c9e3c7CF1', decimals: 18, factor: 0.25, root: 'ghst' },
 ])
