@@ -65,6 +65,7 @@ const symbolToLogoURI = {
     'GHST': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3F382DbD960E3a9bbCeaE22651E88158d2791550/logo.png',
     'EURS': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdB25f211AB05b1c97D595516F45794528a807ad8/logo.png',
     'FTM': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4E15361FD6b4BB609Fa63C81A2be19d873717870/logo.png',
+    'UST': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa693B19d2931d498c5B318dF961919BB4aee87a5/logo.png',
 }
 
 const keyToLogoURI = {
@@ -153,6 +154,7 @@ const keyToLogoURI = {
     'usdp': 'https://cdn.instadapp.io/icons/tokens/usdp.svg',
     'usdt': 'https://cdn.instadapp.io/icons/tokens/usdt.svg',
     'usdte': 'https://cdn.instadapp.io/icons/tokens/usdte.svg',
+    'ust': 'https://cdn.instadapp.io/icons/tokens/ust.svg',
     'wavax': 'https://cdn.instadapp.io/icons/tokens/wavax.svg',
     'wbtc': 'https://cdn.instadapp.io/icons/tokens/wbtc.svg',
     'weth': 'https://cdn.instadapp.io/icons/tokens/weth.svg',
