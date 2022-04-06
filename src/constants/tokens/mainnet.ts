@@ -31,7 +31,6 @@ export default createTokenUtils([
   { key: 'snx', type: 'token', symbol: 'SNX', name: 'Synthetix Network Token', address: '0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F', decimals: 18, isStableCoin: false },
   { key: 'uni', type: 'token', symbol: 'UNI', name: 'Uniswap Token', address: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984', decimals: 18, isStableCoin: false },
   { key: 'yfi', type: 'token', symbol: 'YFI', name: 'YEARN', address: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e', decimals: 18, isStableCoin: false },
-  // { key: 'chi', type: 'token', symbol: 'CHI', name: 'CHI Gas Token', address: '0x0000000000004946c0e9F43F4Dee607b0eF1fA1c', decimals: 0, isStableCoin: false},
   { key: 'lrc', type: 'token', symbol: 'LRC', name: 'Loopring Coin V2', address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD', decimals: 18, isStableCoin: false },
   { key: 'enj', type: 'token', symbol: 'ENJ', name: 'Enjin Coin', address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c', decimals: 18, isStableCoin: false },
   { key: 'bal', type: 'token', symbol: 'BAL', name: 'Balancer', address: '0xba100000625a3754423978a60c9317c58a424e3D', decimals: 18, isStableCoin: false },
@@ -50,6 +49,6 @@ export default createTokenUtils([
   { key: 'fei', type: 'token', symbol: 'FEI', name: 'Fei Protocol', address: '0x956F47F50A910163D8BF957Cf5846D573E7f87CA', decimals: 18, isStableCoin: true },
   { key: 'steth', type: 'token', symbol: 'stETH', name: 'Lido stETH Token', address: '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84', decimals: 18, isStableCoin: false },
   { key: 'wsteth', type: 'token', symbol: 'wstETH', name: 'Lido Wrapped stETH Token', address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', decimals: 18, isStableCoin: false },
-  { key: 'apecoin', type: 'token', symbol: 'ApeCoin', name: 'APE Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
+  { key: 'ape', type: 'token', symbol: 'APE', name: 'ApeCoin Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
   { key: 'ust', type: 'token', symbol: 'UST', name: 'UST (Wormhole)', address: '0xa693B19d2931d498c5B318dF961919BB4aee87a5', decimals: 6, isStableCoin: true },
 ])
