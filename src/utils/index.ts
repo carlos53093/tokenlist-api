@@ -10,6 +10,8 @@ export interface IToken {
     id?: string,
     factor?: number,
     logoURI?: string,
+
+    [key: string]: any,
 }
 
 const symbolToLogoURI = {
