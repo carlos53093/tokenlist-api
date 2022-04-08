@@ -1,4 +1,4 @@
-import { createTokenUtils } from '../../utils'
+import { createTokenUtils } from "../../utils";
 
 // prettier-ignore
 export default createTokenUtils([
@@ -51,4 +51,5 @@ export default createTokenUtils([
   { key: 'wsteth', type: 'token', symbol: 'wstETH', name: 'Lido Wrapped stETH Token', address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', decimals: 18, isStableCoin: false },
   { key: 'ape', type: 'token', symbol: 'APE', name: 'ApeCoin Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
   { key: 'ust', type: 'token', symbol: 'UST', name: 'UST (Wormhole)', address: '0xa693B19d2931d498c5B318dF961919BB4aee87a5', decimals: 6, isStableCoin: true },
+  { key: 'wsteth', type: 'token', symbol: 'WSTETH', name: 'Wrapped liquid staked Ether 2.0', address: '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0', decimals: 18, isStableCoin: false },
 ])

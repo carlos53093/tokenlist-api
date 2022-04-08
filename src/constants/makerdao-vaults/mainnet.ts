@@ -3,7 +3,7 @@ const vaults = [
   { type: 'ETH-A', token: 'ETH', key: 'eth', ratio: 0.6666666666666666, joinAddr: '0x2F0b23f53734252Bda2277357e97e1517d6B042A', addr: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', stabiltyRate: 0, price: 0, typeBytes: '0x4554482d41000000000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
   { type: 'ETH-B', token: 'ETH', key: 'eth', ratio: 0.76923076923, joinAddr: '0x08638eF1A205bE6762A8b935F5da9b700Cf7322c', addr: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', stabiltyRate: 0, price: 0, typeBytes: '0x4554482d42000000000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
   { type: 'ETH-C', token: 'ETH', key: 'eth', ratio: 0.571428571, joinAddr: '0xF04a5cC80B1E94C69B48f5ee68a08CD2F09A7c3E', addr: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', stabiltyRate: 0, price: 0, typeBytes: '0x4554482d43000000000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
-  { type: 'WSTETH-A', token: 'ETH', key: 'eth', ratio: 0.625, joinAddr: '0x10CD5fbe1b404B7E19Ef964B63939907bdaf42E2', addr: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', stabiltyRate: 0, price: 0, typeBytes: '0x5753544554482d41000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
+  { type: 'WSTETH-A', token: 'WSTETH', key: 'wsteth', ratio: 0.625, joinAddr: '0x10CD5fbe1b404B7E19Ef964B63939907bdaf42E2', addr: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', stabiltyRate: 0, price: 0, typeBytes: '0x5753544554482d41000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
   { type: 'BAT-A', token: 'BAT', key: 'bat', ratio: 0.6666666666666666, joinAddr: '0x3D0B1912B66114d4096F48A8CEe3A56C231772cA', addr: '0x0d8775f648430679a709e98d2b0cb6250d2887ef', stabiltyRate: 0, price: 0, typeBytes: '0x4241542d41000000000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
   { type: 'USDC-A', token: 'USDC', key: 'usdc', ratio: 0.9090909090909091, joinAddr: '0xa191e578a6736167326d05c119ce0c90849e84b7', addr: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', stabiltyRate: 0, price: 0, typeBytes: '0x555344432d410000000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
   { type: 'WBTC-A', token: 'WBTC', key: 'wbtc', ratio: 0.6666666666666666, joinAddr: '0xBF72Da2Bd84c5170618Fbe5914B0ECA9638d5eb5', addr: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', stabiltyRate: 0, price: 0, typeBytes: '0x574254432d410000000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token' },
@@ -45,4 +45,4 @@ export default {
   types: vaults.map((vault) => vault.type),
   getVaultByType: (type) => vaults.find((vault) => vault.type === type),
   toJSON: () => vaults,
-}
+};
