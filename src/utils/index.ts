@@ -14,6 +14,24 @@ export interface IToken {
     [key: string]: any,
 }
 
+type VaultTokenType = "token" | "guniLPT" | "uniLPT"
+
+export interface IVault {
+    type: string,
+    token: string,
+    key: string,
+    ratio: number,
+    joinAddr: string,
+    addr: string,
+    stabiltyRate: number,
+    price: number,
+    typeBytes: string,
+    disabled: boolean,
+    vaultTokenType: VaultTokenType,
+    logoURI: string,
+}
+
+
 const symbolToLogoURI = {
     'INST': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png',
     'DAI': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png',
@@ -169,6 +187,13 @@ const keyToLogoURI = {
     'zrx': 'https://cdn.instadapp.io/icons/tokens/zrx.svg',
 }
 
+
+// TODO Figure out should this tokens have icons
+// unidaiusdc
+// uniethusdt
+// uniwbtcdai
+
+
 export function createTokenUtils(tokens: IToken[]) {
 
     tokens = tokens.map(token => {
@@ -190,6 +215,20 @@ export function createTokenUtils(tokens: IToken[]) {
     const rootTokens = tokens.map((token) => token.root)
 
     return { allTokens: tokens, tokenKeys, getTokenByAddress, getTokenByKey, rootTokens, toJSON: () => tokens }
+}
+
+export function createVaultUtils(vaults: IVault[]) {
+    vaults = vaults.map(vault => {
+        vault.logoURI = keyToLogoURI[vault.key] ?? ''
+        return vault;
+    })
+
+    return {  
+        allVaults: vaults,
+        types: vaults.map((vault) => vault.type),
+        getVaultByType: (type: string) => vaults.find((vault) => vault.type === type),
+        toJSON: () => vaults, 
+    }
 }
 
 
