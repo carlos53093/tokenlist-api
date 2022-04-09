@@ -69,7 +69,7 @@ export default createTokenUtils([
     type: 'token',
     symbol: 'LINK',
     name: 'ChainLink LINK',
-    address: '0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6',
+    address: '0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6',
     decimals: 18,
     isStableCoin: false,
   },
