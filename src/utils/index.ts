@@ -161,7 +161,7 @@ const keyToLogoURI = {
     'uniaaveeth': 'https://cdn.instadapp.io/icons/tokens/uniaaveeth.svg',
     'unidaieth': 'https://cdn.instadapp.io/icons/tokens/unidaieth.svg',
     'unidaiusdt': 'https://cdn.instadapp.io/icons/tokens/unidaiusdt.svg',
-    'unidaiwbtc': 'https://cdn.instadapp.io/icons/tokens/unidaiwbtc.svg',
+    'uniwbtcdai': 'https://cdn.instadapp.io/icons/tokens/unidaiwbtc.svg',
     'unidaiyfi': 'https://cdn.instadapp.io/icons/tokens/unidaiyfi.svg',
     'unilinketh': 'https://cdn.instadapp.io/icons/tokens/unilinketh.svg',
     'uniunieth': 'https://cdn.instadapp.io/icons/tokens/uniunieth.svg',
