@@ -167,7 +167,7 @@ const keyToLogoURI = {
     'uniunieth': 'https://cdn.instadapp.io/icons/tokens/uniunieth.svg',
     'unidaiusdc': 'https://cdn.instadapp.io/icons/tokens/uniusdcdai.svg',
     'uniusdceth': 'https://cdn.instadapp.io/icons/tokens/uniusdceth.svg',
-    'uniusdteth': 'https://cdn.instadapp.io/icons/tokens/uniusdteth.svg',
+    'uniethusdt': 'https://cdn.instadapp.io/icons/tokens/uniusdteth.svg',
     'uniwbtceth': 'https://cdn.instadapp.io/icons/tokens/uniwbtceth.svg',
     'usdc': 'https://cdn.instadapp.io/icons/tokens/usdc.svg',
     'usdce': 'https://cdn.instadapp.io/icons/tokens/usdce.svg',
@@ -186,12 +186,6 @@ const keyToLogoURI = {
     'zil': 'https://cdn.instadapp.io/icons/tokens/zil.svg',
     'zrx': 'https://cdn.instadapp.io/icons/tokens/zrx.svg',
 }
-
-
-// TODO Figure out should this tokens have icons
-// unidaiusdc
-// uniethusdt
-// uniwbtcdai
 
 
 export function createTokenUtils(tokens: IToken[]) {
