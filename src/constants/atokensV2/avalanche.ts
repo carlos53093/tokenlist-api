@@ -67,7 +67,7 @@ export default createTokenUtils([
     symbol: 'avWAVAX',
     name: 'Aave WAVAX',
     address: '0xDFE521292EcE2A4f44242efBcD66Bc594CA9714B',
-    decimals: 8,
+    decimals: 18,
     factor: 0,
     root: 'avax',
   },
