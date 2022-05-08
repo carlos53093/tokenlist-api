@@ -51,4 +51,5 @@ export default createTokenUtils([
   { key: 'wsteth', type: 'token', symbol: 'wstETH', name: 'Lido Wrapped stETH Token', address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', decimals: 18, isStableCoin: false },
   { key: 'ape', type: 'token', symbol: 'APE', name: 'ApeCoin Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
   { key: 'ust', type: 'token', symbol: 'UST', name: 'UST (Wormhole)', address: '0xa693B19d2931d498c5B318dF961919BB4aee87a5', decimals: 6, isStableCoin: true },
+  { key: 'note', type: 'token', symbol: 'NOTE', name: 'Notional Token', address: '0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5', decimals: 8, isStableCoin: false },
 ])
