@@ -139,6 +139,7 @@ const keyToLogoURI = {
     'mana': 'https://cdn.instadapp.io/icons/tokens/mana.svg',
     'matic': 'https://cdn.instadapp.io/icons/tokens/matic.svg',
     'mkr': 'https://cdn.instadapp.io/icons/tokens/mkr.svg',
+    'note': 'https://cdn.instadapp.io/icons/tokens/note.svg',
     'omg': 'https://cdn.instadapp.io/icons/tokens/omg.svg',
     'poly': 'https://cdn.instadapp.io/icons/tokens/poly.svg',
     'qi': 'https://cdn.instadapp.io/icons/tokens/qi.svg',
