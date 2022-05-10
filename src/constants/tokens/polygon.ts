@@ -64,6 +64,15 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+   {
+    key: 'stmatic',
+    type: 'token',
+    symbol: 'stMATIC',
+    name: 'Lido Staked MATIC',
+    address: '0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4',
+    decimals: 18,
+    isStableCoin: false,
+  },
   {
     key: 'wbtc',
     type: 'token',
@@ -163,4 +172,5 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  
 ])
