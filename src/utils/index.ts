@@ -155,6 +155,7 @@ const keyToLogoURI = {
     'snx': 'https://cdn.instadapp.io/icons/tokens/snx.svg',
     'steth': 'https://cdn.instadapp.io/icons/tokens/steth.svg',
     'stkaave': 'https://cdn.instadapp.io/icons/tokens/stkaave.svg',
+    'stmatic': 'https://cdn.instadapp.io/icons/tokens/stmatic.svg',
     'susd': 'https://cdn.instadapp.io/icons/tokens/susd.svg',
     'sushi': 'https://cdn.instadapp.io/icons/tokens/sushi.svg',
     'tusd': 'https://cdn.instadapp.io/icons/tokens/tusd.svg',
