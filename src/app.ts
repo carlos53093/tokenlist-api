@@ -4,15 +4,16 @@ import { useExpressServer } from "routing-controllers";
 import morgan from "morgan";
 import dotenv from "dotenv";
 import { CustomErrorHandler } from "./middlewares/CustomErrorHandler";
+import { TrimStrings } from "./middlewares/TrimStrings";
 import path from "path";
 
 dotenv.config();
 
 const expressApp: Application = express();
 
-expressApp.get('/test', (req, res) => {
-  res.sendFile(path.join(__dirname, '../test.html'));
-})
+expressApp.get("/test", (req, res) => {
+  res.sendFile(path.join(__dirname, "../test.html"));
+});
 
 // Show routes called in console during development
 process.env.NODE_ENV === "development" && expressApp.use(morgan("dev"));
@@ -33,7 +34,7 @@ const app = useExpressServer(expressApp, {
   },
   defaultErrorHandler: false, // disable default error handler
   controllers: [__dirname + "/controllers/*{.js,.ts}"],
-  middlewares: [CustomErrorHandler],
+  middlewares: [TrimStrings, CustomErrorHandler],
 });
 
 const PORT = process.env.PORT || 8080;
