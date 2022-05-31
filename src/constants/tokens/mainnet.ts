@@ -52,4 +52,8 @@ export default createTokenUtils([
   { key: 'ape', type: 'token', symbol: 'APE', name: 'ApeCoin Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
   { key: 'ust', type: 'token', symbol: 'UST', name: 'UST (Wormhole)', address: '0xa693B19d2931d498c5B318dF961919BB4aee87a5', decimals: 6, isStableCoin: true },
   { key: 'note', type: 'token', symbol: 'NOTE', name: 'Notional Token', address: '0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5', decimals: 8, isStableCoin: false },
+  { key: 'iwbtc', type: 'token', symbol: 'iWBTC', name: 'Instadapp WBTC', address: '0xEC363faa5c4dd0e51f3D9B5d0101263760E7cdeB', decimals: 8, isStableCoin: false },
+  { key: 'ieth', type: 'token', symbol: 'iETH', name: 'Instadapp ETH', address: '0xc383a3833A87009fD9597F8184979AF5eDFad019', decimals: 18, isStableCoin: false },
+  { key: 'iusdc', type: 'token', symbol: 'iUSDC', name: 'Instadapp USDC', address: '0xc8871267e07408b89aA5aEcc58AdCA5E574557F8', decimals: 6, isStableCoin: true },
+  { key: 'idai', type: 'token', symbol: 'iDAI', name: 'Instadapp DAI', address: '0x40a9d39aa50871Df092538c5999b107f34409061', decimals: 18, isStableCoin: true },
 ])
