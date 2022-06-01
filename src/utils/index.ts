@@ -86,6 +86,7 @@ const symbolToLogoURI = {
     'EURS': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdB25f211AB05b1c97D595516F45794528a807ad8/logo.png',
     'FTM': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4E15361FD6b4BB609Fa63C81A2be19d873717870/logo.png',
     'UST': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa693B19d2931d498c5B318dF961919BB4aee87a5/logo.png',
+    'OP': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/optimism/assets/0x4200000000000000000000000000000000000042/logo.png',
 }
 
 const keyToLogoURI = {
@@ -191,8 +192,8 @@ const keyToLogoURI = {
     'yfi': 'https://cdn.instadapp.io/icons/tokens/yfi.svg',
     'zil': 'https://cdn.instadapp.io/icons/tokens/zil.svg',
     'zrx': 'https://cdn.instadapp.io/icons/tokens/zrx.svg',
+    'op': 'https://cdn.instadapp.io/icons/tokens/op.svg',
 }
-
 
 export function createTokenUtils(tokens: IToken[]) {
 
@@ -230,7 +231,6 @@ export function createVaultUtils(vaults: IVault[]) {
         toJSON: () => vaults, 
     }
 }
-
 
 export function createNetworkList(networks) {
     return {
