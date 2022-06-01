@@ -192,6 +192,7 @@ const keyToLogoURI = {
     'yfi': 'https://cdn.instadapp.io/icons/tokens/yfi.svg',
     'zil': 'https://cdn.instadapp.io/icons/tokens/zil.svg',
     'zrx': 'https://cdn.instadapp.io/icons/tokens/zrx.svg',
+    'op': 'https://cdn.instadapp.io/icons/tokens/op.svg',
 }
 
 export function createTokenUtils(tokens: IToken[]) {
