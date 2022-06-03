@@ -41,6 +41,5 @@ const app = useExpressServer(expressApp, {
 const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => {
-  // eslint-disable-next-line no-console
   console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`)
 })
