@@ -1,15 +1,15 @@
-import { Post, JsonController, Body, Get, Param } from "routing-controllers";
-import tokens from "../constants/tokens";
+import { Get, JsonController, Param } from 'routing-controllers'
+import tokens from '../constants/tokens'
 
 @JsonController()
 export class TokensController {
-  @Get("/tokens", { transformResponse: false })
+  @Get('/tokens', { transformResponse: false })
   public index() {
-    return tokens;
+    return tokens
   }
 
-  @Get("/:network/tokens", { transformResponse: false })
+  @Get('/:network/tokens', { transformResponse: false })
   public byNetwork(@Param('network') network: string) {
-    return tokens[network] || [];
+    return tokens[network] || []
   }
 }

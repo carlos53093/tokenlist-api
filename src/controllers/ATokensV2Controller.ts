@@ -1,15 +1,15 @@
-import { JsonController, Get, Param } from "routing-controllers";
-import tokens from "../constants/atokensV2";
+import { Get, JsonController, Param } from 'routing-controllers'
+import tokens from '../constants/atokensV2'
 
 @JsonController()
 export class ATokensV2Controller {
-  @Get("/aave/v2/tokens", { transformResponse: false })
+  @Get('/aave/v2/tokens', { transformResponse: false })
   public index() {
-    return tokens;
+    return tokens
   }
 
-  @Get("/:network/aave/v2/tokens", { transformResponse: false })
+  @Get('/:network/aave/v2/tokens', { transformResponse: false })
   public byNetwork(@Param('network') network: string) {
-    return tokens[network] || [];
+    return tokens[network] || []
   }
 }

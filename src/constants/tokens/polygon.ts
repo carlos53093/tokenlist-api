@@ -64,7 +64,7 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
-   {
+  {
     key: 'stmatic',
     type: 'token',
     symbol: 'stMATIC',
@@ -172,5 +172,5 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
-  
+
 ])

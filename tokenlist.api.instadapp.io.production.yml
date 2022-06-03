@@ -27,18 +27,18 @@ spec:
           imagePullPolicy: IfNotPresent
           resources:
             requests:
-              cpu: "200m"
-              memory: "500Mi"
+              cpu: 200m
+              memory: 500Mi
             limits:
-              cpu: "500m"
-              memory: "600M"
+              cpu: 500m
+              memory: 600M
           ports:
             - containerPort: 5000
           env:
             - name: NODE_ENV
-              value: "production"
+              value: production
             - name: PORT
-              value: "5000"
+              value: '5000'
           livenessProbe:
             httpGet:
               path: /

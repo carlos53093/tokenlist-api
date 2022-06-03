@@ -1,22 +1,23 @@
-import express, { Application } from "express";
-import "reflect-metadata";
-import { useExpressServer } from "routing-controllers";
-import morgan from "morgan";
-import dotenv from "dotenv";
-import { CustomErrorHandler } from "./middlewares/CustomErrorHandler";
-import { TrimStrings } from "./middlewares/TrimStrings";
-import path from "path";
+import path from 'path'
+import type { Application } from 'express'
+import express from 'express'
+import 'reflect-metadata'
+import { useExpressServer } from 'routing-controllers'
+import morgan from 'morgan'
+import dotenv from 'dotenv'
+import { CustomErrorHandler } from './middlewares/CustomErrorHandler'
+import { TrimStrings } from './middlewares/TrimStrings'
 
-dotenv.config();
+dotenv.config()
 
-const expressApp: Application = express();
+const expressApp: Application = express()
 
-expressApp.get("/test", (req, res) => {
-  res.sendFile(path.join(__dirname, "../test.html"));
-});
+expressApp.get('/test', (req, res) => {
+  res.sendFile(path.join(__dirname, '../test.html'))
+})
 
 // Show routes called in console during development
-process.env.NODE_ENV === "development" && expressApp.use(morgan("dev"));
+process.env.NODE_ENV === 'development' && expressApp.use(morgan('dev'))
 
 const app = useExpressServer(expressApp, {
   cors: true,
@@ -33,12 +34,13 @@ const app = useExpressServer(expressApp, {
     forbidUnknownValues: true, // prevent unknown objects from passing validation
   },
   defaultErrorHandler: false, // disable default error handler
-  controllers: [__dirname + "/controllers/*{.js,.ts}"],
+  controllers: [path.join(__dirname, '/controllers/*{.js,.ts}')],
   middlewares: [TrimStrings, CustomErrorHandler],
-});
+})
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => {
-  console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`);
-});
+  // eslint-disable-next-line no-console
+  console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`)
+})

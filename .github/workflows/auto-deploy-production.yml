@@ -3,7 +3,7 @@ name: production-deployment-automation
 on:
   push:
     branches:
-      - "master"
+      - master
 
 env:
   REGISTRY: ghcr.io
@@ -90,8 +90,8 @@ jobs:
     name: Deploy to Production
     runs-on: ubuntu-latest
     environment:
-      name: "Production"
-      url: "https://tokenlist.api.instadapp.io"
+      name: Production
+      url: 'https://tokenlist.api.instadapp.io'
     needs: build_image
     permissions:
       contents: read
