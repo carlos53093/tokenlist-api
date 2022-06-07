@@ -40,19 +40,6 @@ export default createVaultUtils([
   { type: 'UNIV2WBTCDAI-A', token: 'UNI-V2-WBTC/DAI', key: 'uniwbtcdai', ratio: 0.8, joinAddr: '0xD40798267795Cbf3aeEA8E9F8DCbdBA9b5281fcC', addr: '0x231B7589426Ffe1b75405526fC32aC09D44364c4', stabiltyRate: 0, price: 0, typeBytes: '0x554e495632574254434441492d41000000000000000000000000000000000000', disabled: false, vaultTokenType: 'uniLPT', logoURI: '' },
   { type: 'UNIV2AAVEETH-A', token: 'UNI-V2-AAVE/ETH', key: 'uniaaveeth', ratio: 0.606060606, joinAddr: '0x42AFd448Df7d96291551f1eFE1A590101afB1DfF', addr: '0xDFC14d2Af169B0D36C4EFF567Ada9b2E0CAE044f', stabiltyRate: 0, price: 0, typeBytes: '0x554e495632414156454554482d41000000000000000000000000000000000000', disabled: false, vaultTokenType: 'uniLPT', logoURI: '' },
   { type: 'UNIV2DAIUSDT-A', token: 'UNI-V2-DAI/USDT', key: 'unidaiusdt', ratio: 0.8, joinAddr: '0xAf034D882169328CAf43b823a4083dABC7EEE0F4', addr: '0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405', stabiltyRate: 0, price: 0, typeBytes: '0x554e495632444149555344542d41000000000000000000000000000000000000', disabled: false, vaultTokenType: 'uniLPT', logoURI: '' },
-  {
-    type: 'WSTETH-B',
-    token: 'WSTETH',
-    key: 'wsteth',
-    ratio: 0,
-    joinAddr: '0x248cCBf4864221fC0E840F29BB042ad5bFC89B5c',
-    addr: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
-    stabiltyRate: 0,
-    price: 0,
-    typeBytes: '0x5753544554482d42000000000000000000000000000000000000000000000000',
-    disabled: false,
-    vaultTokenType: 'token',
-    logoURI: '',
-  },
+  { type: 'WSTETH-B', token: 'WSTETH', key: 'wsteth', ratio: 0, joinAddr: '0x248cCBf4864221fC0E840F29BB042ad5bFC89B5c', addr: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', stabiltyRate: 0, price: 0, typeBytes: '0x5753544554482d42000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token', logoURI: '' },
 ])
 
