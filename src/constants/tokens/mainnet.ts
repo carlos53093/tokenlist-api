@@ -56,4 +56,5 @@ export default createTokenUtils([
   { key: 'ape', type: 'token', symbol: 'APE', name: 'ApeCoin Token', address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381', decimals: 18, isStableCoin: false },
   { key: 'ust', type: 'token', symbol: 'UST', name: 'UST (Wormhole)', address: '0xa693B19d2931d498c5B318dF961919BB4aee87a5', decimals: 6, isStableCoin: true },
   { key: 'note', type: 'token', symbol: 'NOTE', name: 'Notional Token', address: '0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5', decimals: 8, isStableCoin: false },
+  { key: 'euroc', type: 'token', symbol: 'EUROC', name: 'EURO Coin', address: '0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c', decimals: 6, isStableCoin: true },
 ])
