@@ -195,7 +195,7 @@ const keyToLogoURI = {
   'zrx': 'https://cdn.instadapp.io/icons/tokens/zrx.svg',
   'op': 'https://cdn.instadapp.io/icons/tokens/op.svg',
   'savax': 'https://cdn.instadapp.io/icons/tokens/savax.svg',
-  'lido': 'https://cdn.instadapp.io/icons/tokens/lido.svg',
+  'ldo': 'https://cdn.instadapp.io/icons/tokens/lido.svg',
 }
 
 export function createTokenUtils(tokens: IToken[]) {
