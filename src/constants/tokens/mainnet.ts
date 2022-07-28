@@ -64,4 +64,6 @@ export default createTokenUtils([
   { key: 'axs', type: 'token', symbol: 'AXS', name: 'Axie Infinity Shard', address: '0xbb0e17ef65f82ab018d8edd776e8dd940327b28b', decimals: 18, isStableCoin: false },
   { key: 'osqth', type: 'token', symbol: 'OSQTH', name: 'Opyn Squeeth', address: '0xf1b99e3e573a1a9c5e6b2ce818b617f0e664e86b', decimals: 18, isStableCoin: false },
   { key: 'cvx', type: 'token', symbol: 'CVX', name: 'Convex Token', address: '0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b', decimals: 18, isStableCoin: false },
+  { key: 'ageur', type: 'token', symbol: 'agEUR', name: 'agEUR', address: '0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8', decimals: 18, isStableCoin: false },
+  { key: 'ens', type: 'token', symbol: 'ENS', name: 'Ethereum Name Service', address: '0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72', decimals: 18, isStableCoin: false },
 ])
