@@ -2,7 +2,7 @@ import { Get, JsonController, Param } from 'routing-controllers'
 import tokens from '../constants/etokens'
 
 @JsonController()
-export class ATokensV2Controller {
+export class ETokensV2Controller {
   @Get('/euler/tokens', { transformResponse: false })
   public index() {
     return tokens
