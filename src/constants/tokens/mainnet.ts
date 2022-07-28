@@ -58,4 +58,10 @@ export default createTokenUtils([
   { key: 'note', type: 'token', symbol: 'NOTE', name: 'Notional Token', address: '0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5', decimals: 8, isStableCoin: false },
   { key: 'euroc', type: 'token', symbol: 'EUROC', name: 'EURO Coin', address: '0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c', decimals: 6, isStableCoin: true },
   { key: 'ldo', type: 'token', symbol: 'LDO', name: 'Lido DAO Token', address: '0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32', decimals: 18, isStableCoin: false },
+  { key: 'shib', type: 'token', symbol: 'SHIB', name: 'SHIBA INU', address: '0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce', decimals: 18, isStableCoin: false },
+  { key: 'rbn', type: 'token', symbol: 'RBN', name: 'Ribbon', address: '0x6123b0049f904d730db3c36a31167d9d4121fa6b', decimals: 18, isStableCoin: false },
+  { key: 'perp', type: 'token', symbol: 'PERP', name: 'Perpetual', address: '0xbc396689893d065f41bc2c6ecbee5e0085233447', decimals: 18, isStableCoin: false },
+  { key: 'axs', type: 'token', symbol: 'AXS', name: 'Axie Infinity Shard', address: '0xbb0e17ef65f82ab018d8edd776e8dd940327b28b', decimals: 18, isStableCoin: false },
+  { key: 'osqth', type: 'token', symbol: 'OSQTH', name: 'Opyn Squeeth', address: '0xf1b99e3e573a1a9c5e6b2ce818b617f0e664e86b', decimals: 18, isStableCoin: false },
+  { key: 'cvx', type: 'token', symbol: 'CVX', name: 'Convex Token', address: '0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b', decimals: 18, isStableCoin: false },
 ])
