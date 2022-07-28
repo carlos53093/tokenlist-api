@@ -196,6 +196,12 @@ const keyToLogoURI = {
   'op': 'https://cdn.instadapp.io/icons/tokens/op.svg',
   'savax': 'https://cdn.instadapp.io/icons/tokens/savax.svg',
   'ldo': 'https://cdn.instadapp.io/icons/tokens/ldo.svg',
+  'shib': 'https://cdn.instadapp.io/icons/tokens/shib.svg',
+  'osqth': 'https://cdn.instadapp.io/icons/tokens/osqth.svg',
+  'rbn': 'https://cdn.instadapp.io/icons/tokens/rbn.svg',
+  'cvx': 'https://cdn.instadapp.io/icons/tokens/cvx.svg',
+  'perp': 'https://cdn.instadapp.io/icons/tokens/perp.svg',
+  'axs': 'https://cdn.instadapp.io/icons/tokens/axs.svg',
 }
 
 export function createTokenUtils(tokens: IToken[]) {
