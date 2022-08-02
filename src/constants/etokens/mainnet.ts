@@ -30,13 +30,13 @@ export default createTokenUtils([
     root: 'dai',
   },
   {
-    key: 'eweth',
+    key: 'eeth',
     type: 'etoken',
-    symbol: 'EWETH',
-    name: 'Euler Wrapped Ethereum',
+    symbol: 'EETH',
+    name: 'Euler Ethereum',
     address: '0x1b808F49ADD4b8C6b5117d9681cF7312Fcf0dC1D',
     decimals: 18,
-    root: 'weth',
+    root: 'eth',
   },
   {
     key: 'ewbtc',
