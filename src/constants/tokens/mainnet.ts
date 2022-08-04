@@ -66,5 +66,5 @@ export default createTokenUtils([
   { key: 'cvx', type: 'token', symbol: 'CVX', name: 'Convex Token', address: '0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b', decimals: 18, isStableCoin: false },
   { key: 'ageur', type: 'token', symbol: 'agEUR', name: 'agEUR', address: '0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8', decimals: 18, isStableCoin: false },
   { key: 'ens', type: 'token', symbol: 'ENS', name: 'Ethereum Name Service', address: '0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72', decimals: 18, isStableCoin: false },
-  { key: 'eul', type: 'token', symbol: 'EUL', name: 'Euler Finance', address: '0xd9fcd98c322942075a5c3860693e9f4f03aae07b', decimals: 18, isStableCoin: false },
+  { key: 'eul', type: 'token', symbol: 'EUL', name: 'Euler Finance', address: '0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b', decimals: 18, isStableCoin: false },
 ])
