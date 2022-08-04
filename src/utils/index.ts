@@ -202,6 +202,7 @@ const keyToLogoURI = {
   'cvx': 'https://cdn.instadapp.io/icons/tokens/cvx.svg',
   'perp': 'https://cdn.instadapp.io/icons/tokens/perp.svg',
   'axs': 'https://cdn.instadapp.io/icons/tokens/axs.svg',
+  'eul': 'https://cdn.instadapp.io/icons/tokens/eul.svg',
 }
 
 export function createTokenUtils(tokens: IToken[]) {
