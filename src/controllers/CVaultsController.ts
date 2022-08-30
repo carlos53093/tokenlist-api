@@ -3,7 +3,7 @@ import cVaults from "../constants/cVaults";
 
 @JsonController()
 export class CTokensController {
-  @Get("/compound/vaults", { transformResponse: false })
+  @Get("/compound/v3/vaults", { transformResponse: false })
   public index() {
     return cVaults;
   }
