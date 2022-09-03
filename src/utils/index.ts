@@ -96,7 +96,7 @@ const symbolToLogoURI = {
   FTM: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4E15361FD6b4BB609Fa63C81A2be19d873717870/logo.png",
   UST: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa693B19d2931d498c5B318dF961919BB4aee87a5/logo.png",
   OP: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/optimism/assets/0x4200000000000000000000000000000000000042/logo.png",
-  miMATIC:
+  mimatic:
     "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/assets/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1/logo.png",
   // 'SAVAX': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE/logo.png', // NOT found
 };
@@ -215,7 +215,7 @@ const keyToLogoURI = {
   perp: "https://cdn.instadapp.io/icons/tokens/perp.svg",
   axs: "https://cdn.instadapp.io/icons/tokens/axs.svg",
   eul: "https://cdn.instadapp.io/icons/tokens/eul.svg",
-  miMatic: "https://cdn.instadapp.io/icons/tokens/miMatic.svg",
+  mimatic: "https://cdn.instadapp.io/icons/tokens/mimatic.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {

@@ -182,7 +182,7 @@ export default createTokenUtils([
     isStableCoin: false,
   },
   {
-    key: "miMatic",
+    key: "mimatic",
     type: "token",
     symbol: "miMATIC",
     name: "miMATIC Token",

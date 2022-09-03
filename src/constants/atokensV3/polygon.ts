@@ -162,13 +162,13 @@ export default createTokenUtils([
     root: "ageur",
   },
   {
-    key: "amiMatic",
+    key: "amimatic",
     type: "atoken",
     symbol: "AmiMATIC",
     name: "Aave miMatic",
     address: "0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D",
     decimals: 18,
     factor: 0.75,
-    root: "miMatic",
+    root: "mimatic",
   },
 ]);
