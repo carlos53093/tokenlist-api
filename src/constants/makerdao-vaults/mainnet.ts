@@ -43,4 +43,3 @@ export default createVaultUtils([
   { type: 'CRVV1ETHSTETH-A', token: 'STECRV', key: 'stecrv', ratio: 0, joinAddr: '0x82D8bfDB61404C796385f251654F6d7e92092b5D', addr: '0x06325440D014e39736583c165C2963BA99fAf14E', stabiltyRate: 0, price: 0, typeBytes: '0x435256563145544853544554482d410000000000000000000000000000000000', disabled: false, vaultTokenType: 'token', logoURI: '' },
   { type: 'WSTETH-B', token: 'WSTETH', key: 'wsteth', ratio: 0, joinAddr: '0x248cCBf4864221fC0E840F29BB042ad5bFC89B5c', addr: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0', stabiltyRate: 0, price: 0, typeBytes: '0x5753544554482d42000000000000000000000000000000000000000000000000', disabled: false, vaultTokenType: 'token', logoURI: '' },
 ])
-
