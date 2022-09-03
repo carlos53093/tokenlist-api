@@ -1,4 +1,4 @@
-import { createTokenUtils } from "../../utils";
+import { createTokenUtils } from '../../utils'
 
 // prettier-ignore
 export default createTokenUtils([
