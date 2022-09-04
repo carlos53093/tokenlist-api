@@ -10,7 +10,7 @@ export interface IToken {
   id?: string
   factor?: number
   logoURI?: string
-
+  liquidation?: number
   [key: string]: any
 }
 
