@@ -82,4 +82,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: 'aave',
+    type: 'token',
+    symbol: 'AAVE',
+    name: 'Aave Token',
+    address: '0xba5DdD1f9d7F570dc94a51479a000E3BCE967196',
+    decimals: 18,
+    isStableCoin: false,
+  },
 ])
