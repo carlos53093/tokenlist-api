@@ -188,4 +188,15 @@ export default createTokenUtils([
     root: "sushi",
     id: "SUSHI-A",
   },
+  {
+    key: "cusdp",
+    type: "ctoken",
+    symbol: "CUSDP",
+    name: "Compound Pax Dollar",
+    address: "0x041171993284df560249B57358F931D9eB7b925D",
+    decimals: 8,
+    root: "usdp",
+    id: "USDP-A",
+    logoURI: "https://cdn.instadapp.io/icons/tokens/cusdp.svg",
+  },
 ]);
