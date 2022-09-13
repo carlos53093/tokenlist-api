@@ -1,15 +1,15 @@
-import { Get, JsonController, Param } from 'routing-controllers'
-import tokens from '../constants/etokens'
+import { Get, JsonController, Param } from "routing-controllers";
+import tokens from "../constants/etokens";
 
 @JsonController()
 export class ETokensV2Controller {
-  @Get('/euler/tokens', { transformResponse: false })
+  @Get("/euler/tokens", { transformResponse: false })
   public index() {
-    return tokens
+    return tokens;
   }
 
-  @Get('/:network/euler/tokens', { transformResponse: false })
-  public byNetwork(@Param('network') network: string) {
-    return tokens[network] || []
+  @Get("/:network/euler/tokens", { transformResponse: false })
+  public byNetwork(@Param("network") network: string) {
+    return tokens[network] || [];
   }
 }

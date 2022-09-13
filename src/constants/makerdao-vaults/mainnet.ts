@@ -1,4 +1,4 @@
-import { createVaultUtils } from '../../utils'
+import { createVaultUtils } from "../../utils";
 
 // prettier-ignore
 export default createVaultUtils([

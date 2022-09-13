@@ -91,7 +91,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: 'https://tokenlist.api.instadapp.io'
+      url: "https://tokenlist.api.instadapp.io"
     needs: build_image
     permissions:
       contents: read

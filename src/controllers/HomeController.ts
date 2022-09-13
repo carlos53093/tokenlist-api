@@ -1,11 +1,11 @@
-import { Get, JsonController } from 'routing-controllers'
+import { Get, JsonController } from "routing-controllers";
 
 @JsonController()
 export class HomeController {
-  @Get('/')
+  @Get("/")
   public index() {
     return {
-      message: 'Token List API',
-    }
+      message: "Token List API",
+    };
   }
 }
