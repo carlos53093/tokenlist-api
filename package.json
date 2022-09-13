@@ -42,7 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx prettier --write . && npm run lint:fix && git add -A ."
+      "pre-commit": "npx prettier --write . && git add -A ."
     }
   }
 }
