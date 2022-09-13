@@ -1,7 +1,6 @@
 import { createTokenUtils } from '../../utils'
 
-// prettier-ignore
-const tokens = [
+export default createTokenUtils([
   { key: 'ceth', type: 'ctoken', symbol: 'CETH', name: 'Compound ETH', address: '0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5', decimals: 8, factor: 0.75, root: 'eth', id: 'ETH-A' },
   { key: 'cdai', type: 'ctoken', symbol: 'CDAI', name: 'Compound DAI', address: '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643', decimals: 8, factor: 0.75, root: 'dai', id: 'DAI-A' },
   { key: 'cusdc', type: 'ctoken', symbol: 'CUSDC', name: 'Compound USDC', address: '0x39aa39c021dfbae8fac545936693ac917d5e7563', decimals: 8, factor: 0.75, root: 'usdc', id: 'USDC-A' },
@@ -19,6 +18,4 @@ const tokens = [
   { key: 'caave', type: 'ctoken', symbol: 'CAAVE', name: 'Compound AAVE', address: '0xe65cdb6479bac1e22340e4e755fae7e509ecd06c', decimals: 8, factor: 0.25, root: 'aave', id: 'AAVE-A' },
   { key: 'cyfi', type: 'ctoken', symbol: 'CYFI', name: 'Compound YFI', address: '0x80a2ae356fc9ef4305676f7a3e2ed04e12c33946', decimals: 8, factor: 0.25, root: 'yfi', id: 'YFI-A' },
   { key: 'csushi', type: 'ctoken', symbol: 'CSUSHI', name: 'Compound SUSHI', address: '0x4b0181102a0112a2ef11abee5563bb4a3176c9d7', decimals: 8, factor: 0.25, root: 'sushi', id: 'SUSHI-A' },
-]
-
-export default createTokenUtils(tokens)
+])
