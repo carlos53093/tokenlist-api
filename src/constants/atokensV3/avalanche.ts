@@ -91,4 +91,13 @@ export default createTokenUtils([
     factor: 0.2,
     root: "savax",
   },
+  {
+    key: "aavafrax",
+    type: "atoken",
+    symbol: "AAVAFRAX",
+    name: "Aave FRAX",
+    address: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+    decimals: 18,
+    root: "frax",
+  },
 ]);
