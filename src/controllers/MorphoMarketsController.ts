@@ -1,5 +1,5 @@
 import { Get, JsonController, Param } from "routing-controllers";
-import morphoMarkets from "src/constants/morpho-markets";
+import morphoMarkets from "../constants/morpho-markets";
 
 
 @JsonController()
