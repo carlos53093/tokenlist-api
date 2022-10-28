@@ -122,16 +122,16 @@ export default [
         root: 'dai'
       },
       {
-        key: "aweth",
+        key: "aeth",
         type: "atoken",
         address: '0x030bA81f1c18d280636F32af80b9AAd02Cf0854e',
         decimals: 18,
-        underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-        name: 'Aave interest bearing WETH',
-        symbol: 'aWETH',
+        underlyingAddress: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
+        name: 'Aave interest bearing ETH',
+        symbol: 'aETH',
         underlyingDecimals: 18,
         factor: 0.825,
-        root: 'weth'
+        root: 'eth'
      }, 
      {
         key: "ausdc",
