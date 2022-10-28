@@ -35,7 +35,7 @@ export default [
         type: "ctoken",
         address: '0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5',
         decimals: 8,
-        underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+        underlyingAddress: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
         name: 'Compound Ether',
         symbol: 'cETH',
         underlyingDecimals: 18,
