@@ -134,18 +134,6 @@ export default [
         root: "eth",
       },
       {
-        key: "cfei",
-        type: "ctoken",
-        address: "0x7713DD9Ca933848F6819F38B8352D9A15EA73F67",
-        decimals: 8,
-        underlyingAddress: "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
-        name: "Compound Fei USD",
-        symbol: "cFEI",
-        underlyingDecimals: 18,
-        factor: 0,
-        root: "fei",
-      },
-      {
         key: "cuni",
         type: "ctoken",
         address: "0x35A18000230DA775CAc24873d00Ff85BccdeD550",
