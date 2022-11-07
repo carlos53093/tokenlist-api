@@ -217,6 +217,7 @@ const keyToLogoURI = {
   axs: "https://cdn.instadapp.io/icons/tokens/axs.svg",
   eul: "https://cdn.instadapp.io/icons/tokens/eul.svg",
   mimatic: "https://cdn.instadapp.io/icons/tokens/mimatic.svg",
+  "btc.b": "https://cdn.instadapp.io/icons/tokens/btc.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {
