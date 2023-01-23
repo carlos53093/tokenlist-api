@@ -70,6 +70,6 @@ jobs:
             docker login -u ${{ github.actor }} -p ${{ secrets.GITHUB_TOKEN }} https://ghcr.io/v2/ && \
             docker pull ${{ needs.build_and_push_image.outputs.full_image_path}} && \
             docker stop tokenlist-api_1 || true && docker rm tokenlist-api_1 || true && \
-            docker run -d --env-file /root/defi-express-L2/.env -p 127.0.0.1:5009:5000 --restart=unless-stopped --name=tokenlist-api_1 ${{ needs.build_and_push_image.outputs.full_image_path}} && \
+            docker run -d --env-file /root/tokenlist/.env -p 127.0.0.1:5009:5000 --restart=unless-stopped --name=tokenlist-api_1 ${{ needs.build_and_push_image.outputs.full_image_path}} && \
             docker logout https://ghcr.io/v2/ && \
             docker logs tokenlist-api_1
