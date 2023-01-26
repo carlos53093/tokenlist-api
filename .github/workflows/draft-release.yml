@@ -3,7 +3,7 @@ name: draft-release
 on:
   push:
     branches:
-      - 'master'
+      - "master"
 
 jobs:
   update_release_draft_and_notify:
