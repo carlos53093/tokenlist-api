@@ -82,9 +82,9 @@ export default createTokenUtils([
     root: "cbeth",
   },
   {
-    key: "aethreth",
+    key: "areth",
     type: "atoken",
-    symbol: "AETHRETH",
+    symbol: "ARETH",
     name: "Aave RETH",
     address: "0xCc9EE9483f662091a1de4795249E24aC0aC2630f",
     decimals: 18,
