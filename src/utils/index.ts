@@ -218,7 +218,9 @@ const keyToLogoURI = {
   eul: "https://cdn.instadapp.io/icons/tokens/eul.svg",
   mimatic: "https://cdn.instadapp.io/icons/tokens/mimatic.svg",
   cbeth:
-    "https://assets.coingecko.com/coins/images/27008/small/cbeth.png?1661390066",
+    "https://cdn.instadapp.io/icons/tokens/cbeth.svg",
+  reth:
+    "https://cdn.instadapp.io/icons/tokens/reth.svg",
   "btc.b": "https://cdn.instadapp.io/icons/tokens/btc.svg",
 };
 
