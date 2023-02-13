@@ -81,4 +81,13 @@ export default createTokenUtils([
     factor: 0.67,
     root: "cbeth",
   },
+  {
+    key: "areth",
+    type: "atoken",
+    symbol: "ARETH",
+    name: "Aave RETH",
+    address: "0xCc9EE9483f662091a1de4795249E24aC0aC2630f",
+    decimals: 18,
+    root: "reth",
+  },
 ]);
