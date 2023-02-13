@@ -69,4 +69,5 @@ export default createTokenUtils([
   { key: 'eul', type: 'token', symbol: 'EUL', name: 'Euler Finance', address: '0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b', decimals: 18, isStableCoin: false },
   { key: 'morpho', type: 'token', symbol: 'MORPHO', name: 'Morpho Protocol', address: '0x9994E35Db50125E0DF82e4c2dde62496CE330999', decimals: 18, isStableCoin: false },
   { key: 'cbeth', type: 'token', symbol: 'cbETH', name: 'Coinbase Wrapped Staked ETH', address: '0xBe9895146f7AF43049ca1c1AE358B0541Ea49704', decimals: 18, isStableCoin: false },
+  { key: 'reth', type: 'token', symbol: 'rETH', name: 'Rocket Pool ETH', address: '0xae78736Cd615f374D3085123A210448E74Fc6393', decimals: 18, isStableCoin: false },
 ])
