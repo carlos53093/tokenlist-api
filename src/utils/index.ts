@@ -156,6 +156,7 @@ const keyToLogoURI = {
   mana: "https://cdn.instadapp.io/icons/tokens/mana.svg",
   matic: "https://cdn.instadapp.io/icons/tokens/matic.svg",
   mkr: "https://cdn.instadapp.io/icons/tokens/mkr.svg",
+  morpho: "https://cdn.instadapp.io/icons/tokens/morpho.svg",
   note: "https://cdn.instadapp.io/icons/tokens/note.svg",
   omg: "https://cdn.instadapp.io/icons/tokens/omg.svg",
   poly: "https://cdn.instadapp.io/icons/tokens/poly.svg",
@@ -216,6 +217,9 @@ const keyToLogoURI = {
   axs: "https://cdn.instadapp.io/icons/tokens/axs.svg",
   eul: "https://cdn.instadapp.io/icons/tokens/eul.svg",
   mimatic: "https://cdn.instadapp.io/icons/tokens/mimatic.svg",
+  cbeth: "https://cdn.instadapp.io/icons/tokens/cbeth.svg",
+  reth: "https://cdn.instadapp.io/icons/tokens/reth.svg",
+  "btc.b": "https://cdn.instadapp.io/icons/tokens/btc.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {

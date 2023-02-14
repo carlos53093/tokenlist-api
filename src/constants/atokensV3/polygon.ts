@@ -180,4 +180,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "maticx",
   },
+  {
+    key: "astmatic",
+    type: "atoken",
+    symbol: "ASTMATIC",
+    name: "Aave STMATIC",
+    address: "0xEA1132120ddcDDA2F119e99Fa7A27a0d036F7Ac9",
+    decimals: 18,
+    root: "stmatic",
+  },
 ]);

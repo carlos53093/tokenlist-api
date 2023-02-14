@@ -91,4 +91,22 @@ export default createTokenUtils([
     factor: 0.2,
     root: "savax",
   },
+  {
+    key: "afrax",
+    type: "atoken",
+    symbol: "AFRAX",
+    name: "Aave FRAX",
+    address: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+    decimals: 18,
+    root: "frax",
+   },
+   {
+    key: "aavabtc.b",
+    type: "atoken",
+    symbol: "AAVABTC.B",
+    name: "Aave BTC.B",
+    address: "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
+    decimals: 8,
+    root: "btc.b",
+  },
 ]);
