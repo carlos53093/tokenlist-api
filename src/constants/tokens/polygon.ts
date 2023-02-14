@@ -191,9 +191,9 @@ export default createTokenUtils([
     isStableCoin: false,
   },
   {
-    key: "xmatic",
+    key: "maticx",
     type: "token",
-    symbol: "xMATIC",
+    symbol: "MaticX",
     name: "Liquid Staking Matic Token",
     address: "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
     decimals: 18,
