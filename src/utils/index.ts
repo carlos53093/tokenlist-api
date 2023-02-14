@@ -217,10 +217,8 @@ const keyToLogoURI = {
   axs: "https://cdn.instadapp.io/icons/tokens/axs.svg",
   eul: "https://cdn.instadapp.io/icons/tokens/eul.svg",
   mimatic: "https://cdn.instadapp.io/icons/tokens/mimatic.svg",
-  cbeth:
-    "https://cdn.instadapp.io/icons/tokens/cbeth.svg",
-  reth:
-    "https://cdn.instadapp.io/icons/tokens/reth.svg",
+  cbeth: "https://cdn.instadapp.io/icons/tokens/cbeth.svg",
+  reth: "https://cdn.instadapp.io/icons/tokens/reth.svg",
   "btc.b": "https://cdn.instadapp.io/icons/tokens/btc.svg",
 };
 
