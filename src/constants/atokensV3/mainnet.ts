@@ -90,4 +90,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "reth",
   },
+  {
+    key: "ausdt",
+    type: "atoken",
+    symbol: "AUSDT",
+    name: "Aave USDT",
+    address: "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a",
+    decimals: 6,
+    root: "usdt",
+  },
 ]);
