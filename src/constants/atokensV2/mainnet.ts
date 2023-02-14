@@ -331,4 +331,13 @@ export default createTokenUtils([
     factor: 0,
     root: "ust",
   },
+  {
+    key: "a1inch",
+    type: "atoken",
+    symbol: "A1INCH",
+    name: "Aave 1INCH",
+    address: "0xB29130CBcC3F791f077eAdE0266168E808E5151e",
+    decimals: 18,
+    root: "1inch",
+  },
 ]);

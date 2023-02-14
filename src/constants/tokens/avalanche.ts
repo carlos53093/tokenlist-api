@@ -83,6 +83,15 @@ export default createTokenUtils([
     isStableCoin: false,
   },
   {
+    key: "btc.b",
+    type: "token",
+    symbol: "BTC.b",
+    name: "BTC.b",
+    address: "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+    decimals: 8,
+    isStableCoin: false,
+  },
+  {
     key: "dai",
     type: "token",
     symbol: "DAI",

@@ -81,4 +81,14 @@ export default createTokenUtils([
     factor: 0,
     root: "susd",
   },
+  {
+    key: "aop",
+    type: "atoken",
+    symbol: "AOP",
+    name: "AAVE OP",
+    address: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
+    decimals: 18,
+    factor: 0,
+    root: "op",
+  },
 ]);

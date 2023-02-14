@@ -163,4 +163,13 @@ export default createTokenUtils([
     type: "etoken",
     root: "axs",
   },
+  {
+    key: "ecbeth",
+    name: "Euler Coinbase Wrapped Staked ETH",
+    symbol: "ECBETH",
+    decimals: 18,
+    address: "0x04E47b672A68d6ad4f7989BD169d3755ae1Cae1B",
+    type: "etoken",
+    root: "cbeth",
+  },
 ]);
