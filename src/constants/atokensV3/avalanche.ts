@@ -92,6 +92,15 @@ export default createTokenUtils([
     root: "savax",
   },
   {
+    key: "afrax",
+    type: "atoken",
+    symbol: "AFRAX",
+    name: "Aave FRAX",
+    address: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+    decimals: 18,
+    root: "frax",
+   },
+   {
     key: "aavabtc.b",
     type: "atoken",
     symbol: "AAVABTC.B",
