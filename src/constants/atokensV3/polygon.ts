@@ -172,9 +172,9 @@ export default createTokenUtils([
     root: "mimatic",
   },
   {
-    key: "apolmaticx",
+    key: "amaticx",
     type: "atoken",
-    symbol: "APOLMATICX",
+    symbol: "AMATICX",
     name: "Aave MATICX",
     address: "0x80cA0d8C38d2e2BcbaB66aA1648Bd1C7160500FE",
     decimals: 18,
