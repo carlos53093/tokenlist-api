@@ -188,6 +188,15 @@ export default createTokenUtils([
     name: "miMATIC Token",
     address: "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
     decimals: 18,
-    isStableCoin: true,
+    isStableCoin: false,
+  },
+  {
+    key: "xmatic",
+    type: "token",
+    symbol: "xMATIC",
+    name: "Liquid Staking Matic Token",
+    address: "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
+    decimals: 18,
+    isStableCoin: false,
   },
 ]);
