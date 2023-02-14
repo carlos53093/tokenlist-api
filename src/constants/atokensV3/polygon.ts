@@ -172,6 +172,15 @@ export default createTokenUtils([
     root: "mimatic",
   },
   {
+    key: "amaticx",
+    type: "atoken",
+    symbol: "AMATICX",
+    name: "Aave MATICX",
+    address: "0x80cA0d8C38d2e2BcbaB66aA1648Bd1C7160500FE",
+    decimals: 18,
+    root: "maticx",
+  },
+  {
     key: "astmatic",
     type: "atoken",
     symbol: "ASTMATIC",
