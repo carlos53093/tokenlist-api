@@ -100,9 +100,9 @@ export default createTokenUtils([
     root: "usdt",
   },
   {
-    key: "aethlusd",
+    key: "alusd",
     type: "atoken",
-    symbol: "AETHLUSD",
+    symbol: "ALUSD",
     name: "Aave LUSD",
     address: "0x3Fe6a295459FAe07DF8A0ceCC36F37160FE86AA9",
     decimals: 18,
