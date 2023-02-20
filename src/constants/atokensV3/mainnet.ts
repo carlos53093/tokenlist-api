@@ -99,4 +99,13 @@ export default createTokenUtils([
     decimals: 6,
     root: "usdt",
   },
+  {
+    key: "alusd",
+    type: "atoken",
+    symbol: "ALUSD",
+    name: "Aave LUSD",
+    address: "0x3Fe6a295459FAe07DF8A0ceCC36F37160FE86AA9",
+    decimals: 18,
+    root: "lusd",
+  },
 ]);
