@@ -100,4 +100,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "wsteth",
+    type: "token",
+    symbol: "WSTETH",
+    name: "Wrapped liquid staked Ether 2.0",
+    address: "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
