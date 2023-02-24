@@ -91,4 +91,14 @@ export default createTokenUtils([
     factor: 0,
     root: "op",
   },
+  {
+    key: "awsteth",
+    type: "atoken",
+    symbol: "AWSTETH",
+    name: "AAVE WSTETH",
+    address: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+    decimals: 18,
+    factor: 0,
+    root: "wsteth",
+  },
 ]);
