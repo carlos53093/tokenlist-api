@@ -81,4 +81,13 @@ export default createTokenUtils([
     factor: 0.65,
     root: "eurs",
   },
+  {
+    key: "awsteth",
+    type: "atoken",
+    symbol: "AWSTETH",
+    name: "Aave WSTETH",
+    address: "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
+    decimals: 18,
+    root: "wsteth",
+  },
 ]);
