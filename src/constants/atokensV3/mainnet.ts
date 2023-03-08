@@ -108,4 +108,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "lusd",
   },
+  {
+    key: "aethcrv",
+    type: "atoken",
+    symbol: "AETHCRV",
+    name: "Aave CRV",
+    address: "0x7B95Ec873268a6BFC6427e7a28e396Db9D0ebc65",
+    decimals: 18,
+    root: "crv",
+  },
 ]);
