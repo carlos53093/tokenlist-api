@@ -100,4 +100,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "arb",
+    type: "token",
+    symbol: "ARB",
+    name: "Arbitrum",
+    address: "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    decimals: 18,
+    isStableCoin: false,
+  }
 ]);
