@@ -108,5 +108,5 @@ export default createTokenUtils([
     address: "0x912CE59144191C1204E64559FE8253a0e49E6548",
     decimals: 18,
     isStableCoin: false,
-  }
+  },
 ]);
