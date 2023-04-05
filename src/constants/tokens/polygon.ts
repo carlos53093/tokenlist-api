@@ -200,15 +200,6 @@ export default createTokenUtils([
     isStableCoin: false,
   },
   {
-    key: "ldo",
-    type: "token",
-    symbol: "LDO",
-    name: "Lido DAO Token",
-    address: "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
-    decimals: 18,
-    isStableCoin: false,
-  },
-  {
     key: "sd",
     type: "token",
     symbol: "SD",
