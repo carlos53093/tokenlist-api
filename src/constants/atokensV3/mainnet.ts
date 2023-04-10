@@ -117,4 +117,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "crv",
   },
+  {
+    key: "aethuni",
+    type: "atoken",
+    symbol: "AETHUNI",
+    name: "Aave UNI",
+    address: "0xF6D2224916DDFbbab6e6bd0D1B7034f4Ae0CaB18",
+    decimals: 18,
+    root: "uni",
+  },
 ]);
