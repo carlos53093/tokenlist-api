@@ -109,4 +109,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "lusd",
+    type: "token",
+    symbol: "LUSD",
+    name: "LUSD Stablecoin",
+    address: "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
+    decimals: 18,
+    isStableCoin: true,
+  },
 ]);
