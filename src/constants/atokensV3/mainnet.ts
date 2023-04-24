@@ -118,9 +118,9 @@ export default createTokenUtils([
     root: "crv",
   },
   {
-    key: "aethldo",
+    key: "aldo",
     type: "atoken",
-    symbol: "AETHLDO",
+    symbol: "ALDO",
     name: "Aave LDO",
     address: "0x9A44fd41566876A39655f74971a3A6eA0a17a454",
     decimals: 18,
