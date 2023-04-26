@@ -43,8 +43,8 @@ export default [
         isStableCoin: false,
         logoURI: "https://cdn.instadapp.io/icons/tokens/wbtc.svg",
         isToken: true,
-        factor: 0.75,
-        liquidation: 0.95,
+        factor: 0.7,
+        liquidation: 0.75,
       },
       {
         key: "weth",
