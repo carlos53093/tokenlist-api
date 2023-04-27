@@ -31,7 +31,7 @@ export default [
         logoURI: "https://cdn.instadapp.io/icons/tokens/matic.svg",
         isToken: true,
         factor: 0.65,
-        liquidation: 0.70,
+        liquidation: 0.7,
       },
       {
         key: "wbtc",
