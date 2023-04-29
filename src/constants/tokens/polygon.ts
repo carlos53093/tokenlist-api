@@ -209,15 +209,6 @@ export default createTokenUtils([
     isStableCoin: false,
   },
   {
-    key: "sd",
-    type: "token",
-    symbol: "SD",
-    name: "Stader (POS)",
-    address: "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
-    decimals: 18,
-    isStableCoin: false,
-  },
-  {
     key: "comp",
     type: "token",
     symbol: "COMP",
