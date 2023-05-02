@@ -190,9 +190,9 @@ export default createTokenUtils([
     root: "stmatic",
   },
   {
-    key: "apolwsteth",
+    key: "awsteth",
     type: "atoken",
-    symbol: "APOLWSTETH",
+    symbol: "AWSTETH",
     name: "Aave WSTETH",
     address: "0xf59036CAEBeA7dC4b86638DFA2E3C97dA9FcCd40",
     decimals: 18,
