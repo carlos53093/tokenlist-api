@@ -1,5 +1,5 @@
 import { Get, JsonController, Param } from "routing-controllers";
-import tokens from "../constants/atokensV3";
+import tokens from "../constants/sptokens";
 
 @JsonController()
 export class SPTokensV3Controller {
