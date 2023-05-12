@@ -70,4 +70,5 @@ export default createTokenUtils([
   { key: 'morpho', type: 'token', symbol: 'MORPHO', name: 'Morpho Protocol', address: '0x9994E35Db50125E0DF82e4c2dde62496CE330999', decimals: 18, isStableCoin: false },
   { key: 'cbeth', type: 'token', symbol: 'cbETH', name: 'Coinbase Wrapped Staked ETH', address: '0xBe9895146f7AF43049ca1c1AE358B0541Ea49704', decimals: 18, isStableCoin: false },
   { key: 'reth', type: 'token', symbol: 'rETH', name: 'Rocket Pool ETH', address: '0xae78736Cd615f374D3085123A210448E74Fc6393', decimals: 18, isStableCoin: false },
+  { key: 'sdai', type: 'token', symbol: 'sDAI', name: 'Savings Dai', address: '0x83F20F44975D03b1b09e64809B757c47f942BEeA', decimals: 18, isStableCoin: true}
 ])
