@@ -98,6 +98,7 @@ export default createTokenUtils([
     name: "Aave FRAX",
     address: "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
     decimals: 18,
+    factor: 0.75,
     root: "frax",
   },
   {
@@ -107,6 +108,7 @@ export default createTokenUtils([
     name: "Aave BTC.B",
     address: "0x8ffDf2DE812095b1D19CB146E4c004587C0A0692",
     decimals: 8,
+    factor: 0.7,
     root: "btc.b",
   },
 ]);
