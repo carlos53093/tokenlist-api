@@ -34,6 +34,7 @@ export interface IVault {
 const symbolToLogoURI = {
   INST: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
   DAI: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+  SDAI: "https://raw.githubusercontent.com/Instadapp/assets/master/icons/tokens/sdai.svg",
   WETH: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   ETH: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   USDC: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
@@ -224,6 +225,7 @@ const keyToLogoURI = {
   arb: "https://cdn.instadapp.io/icons/tokens/arb.svg",
   maticx: "https://cdn.instadapp.io/icons/tokens/maticx.svg",
   sd: "https://cdn.instadapp.io/icons/tokens/stader.svg",
+  sdai: "https://cdn.instadapp.io/icons/tokens/sdai.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {
