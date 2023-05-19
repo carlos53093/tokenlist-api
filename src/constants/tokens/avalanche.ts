@@ -127,4 +127,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "frax",
+    type: "token",
+    symbol: "FRAX",
+    name: "Frax",
+    address: "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
