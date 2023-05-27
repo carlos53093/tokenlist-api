@@ -109,4 +109,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "gmx",
+    type: "token",
+    symbol: "GMX",
+    name: "GMX",
+    address: "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
