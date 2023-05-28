@@ -189,4 +189,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "stmatic",
   },
+  {
+    key: "awsteth",
+    type: "atoken",
+    symbol: "AWSTETH",
+    name: "Aave WSTETH",
+    address: "0xf59036CAEBeA7dC4b86638DFA2E3C97dA9FcCd40",
+    decimals: 18,
+    root: "wsteth",
+  },
 ]);

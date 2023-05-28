@@ -34,6 +34,7 @@ export interface IVault {
 const symbolToLogoURI = {
   INST: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
   DAI: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+  SDAI: "https://raw.githubusercontent.com/Instadapp/assets/master/icons/tokens/sdai.svg",
   WETH: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   ETH: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   USDC: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
@@ -99,6 +100,7 @@ const symbolToLogoURI = {
   ARB: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0x912CE59144191C1204E64559FE8253a0e49E6548/logo.png",
   mimatic:
     "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/assets/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1/logo.png",
+  GMX: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a/logo.png",
   // 'SAVAX': 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/assets/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE/logo.png', // NOT found
 };
 
@@ -224,6 +226,8 @@ const keyToLogoURI = {
   arb: "https://cdn.instadapp.io/icons/tokens/arb.svg",
   maticx: "https://cdn.instadapp.io/icons/tokens/maticx.svg",
   sd: "https://cdn.instadapp.io/icons/tokens/stader.svg",
+  sdai: "https://cdn.instadapp.io/icons/tokens/sdai.svg",
+  gmx: "https://cdn.instadapp.io/icons/tokens/gmx.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {

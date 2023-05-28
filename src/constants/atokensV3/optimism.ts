@@ -101,4 +101,14 @@ export default createTokenUtils([
     factor: 0,
     root: "wsteth",
   },
+  {
+    key: "alusd",
+    type: "atoken",
+    symbol: "ALUSD",
+    name: "LUSD Stablecoin",
+    address: "0x8Eb270e296023E9D92081fdF967dDd7878724424",
+    decimals: 18,
+    factor: 0,
+    root: "lusd",
+  },
 ]);

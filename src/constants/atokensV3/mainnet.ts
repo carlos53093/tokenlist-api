@@ -126,4 +126,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "uni",
   },
+  {
+    key: "aldo",
+    type: "atoken",
+    symbol: "ALDO",
+    name: "Aave LDO",
+    address: "0x9A44fd41566876A39655f74971a3A6eA0a17a454",
+    decimals: 18,
+    root: "ldo",
+  },
 ]);

@@ -208,4 +208,22 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "comp",
+    type: "token",
+    symbol: "COMP",
+    name: "(PoS) Compound",
+    address: "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+    decimals: 18,
+    isStableCoin: false,
+  },
+  {
+    key: "wsteth",
+    type: "token",
+    symbol: "wstETH",
+    name: "Wrapped liquid staked Ether 2.0 (PoS)",
+    address: "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
