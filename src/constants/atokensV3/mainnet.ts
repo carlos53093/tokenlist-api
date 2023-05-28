@@ -118,7 +118,7 @@ export default createTokenUtils([
     root: "crv",
   },
   {
-    key: "aethuni",
+    key: "auni",
     type: "atoken",
     symbol: "AUNI",
     name: "Aave UNI",
