@@ -20,10 +20,10 @@ export default createTokenUtils([
     isStableCoin: false,
   },
   {
-    key: "weth",
+    key: "eth",
     type: "token",
-    symbol: "WETH",
-    name: "Wrapped Ethereum",
+    symbol: "ETH",
+    name: "Ethereum",
     address: "0x74b23882a30290451A17c44f4F05243b6b58C76d",
     decimals: 18,
     isStableCoin: false,
