@@ -47,15 +47,6 @@ export default createTokenUtils([
     isStableCoin: true,
   },
   {
-    key: "btc",
-    type: "token",
-    symbol: "BTC",
-    name: "Bitcoin",
-    address: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
-    decimals: 8,
-    isStableCoin: false,
-  },
-  {
     key: "link",
     type: "token",
     symbol: "LINK",
