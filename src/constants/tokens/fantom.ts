@@ -100,4 +100,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "wbtc",
+    type: "token",
+    symbol: "WBTC",
+    name: "Wrapped BTC",
+    address: "0x321162Cd933E2Be498Cd2267a90534A804051b11",
+    decimals: 8,
+    isStableCoin: false,
+  },
 ]);
