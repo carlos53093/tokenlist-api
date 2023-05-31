@@ -118,4 +118,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "comp",
+    type: "token",
+    symbol: "COMP",
+    name: "(PoS) Compound",
+    address: "0x354A6dA3fcde098F8389cad84b0182725c6C91dE",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
