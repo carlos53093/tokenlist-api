@@ -71,7 +71,7 @@ export default [
         type: "atoken",
         address: "0xCc9EE9483f662091a1de4795249E24aC0aC2630f",
         decimals: 18,
-        underlyingAddress: "0x8dAE6Cb04688C62d939ed9B68d32Bc62e49970b1",
+        underlyingAddress: "0xae78736Cd615f374D3085123A210448E74Fc6393",
         name: "Aave RETH",
         symbol: "ARETH",
         underlyingDecimals: 18,
