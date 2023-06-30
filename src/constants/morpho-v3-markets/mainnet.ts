@@ -17,7 +17,6 @@ export default [
         underlyingDecimals: 18,
         factor: 0.8,
         root: "weth",
-        "e-mode": 1,
       },
       {
         key: "awsteth",
@@ -26,11 +25,10 @@ export default [
         decimals: 18,
         underlyingAddress: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
         name: "Aave WSTETH",
-        symbol: "AETH",
+        symbol: "AWSETH",
         underlyingDecimals: 18,
-        factor: 0.685,
+        factor: 0.9,
         root: "wsteth",
-        "e-mode": 1,
       },
       {
         key: "adai",
@@ -43,7 +41,6 @@ export default [
         underlyingDecimals: 18,
         factor: 0.64,
         root: "dai",
-        "e-mode": 1,
       },
       {
         key: "ausdc",
@@ -56,7 +53,6 @@ export default [
         underlyingDecimals: 6,
         factor: 0.74,
         root: "usdc",
-        "e-mode": 1,
       },
       {
         key: "awbtc",
@@ -69,7 +65,6 @@ export default [
         underlyingDecimals: 8,
         factor: 0.7,
         root: "wbtc",
-        "e-mode": 1,
       },
       {
         key: "areth",
@@ -80,10 +75,10 @@ export default [
         name: "Aave RETH",
         symbol: "ARETH",
         underlyingDecimals: 18,
-        factor: 1,
-        root: "wbtc",
-        "e-mode": 1,
+        factor: 0.9,
+        root: "reth",
       },
     ]),
+    eMode: 1,
   },
 ];
