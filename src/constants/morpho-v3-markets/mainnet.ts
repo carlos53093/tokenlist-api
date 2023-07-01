@@ -2,9 +2,8 @@ import { createTokenUtils } from "../../utils";
 
 export default [
   {
-    key: "aave",
-    marketName: "Morpho-v3-Aave",
-    market: "aave",
+    marketName: "Morpho-Aave-V3",
+    eMode: 1,
     tokens: createTokenUtils([
       {
         key: "aeth",
@@ -15,7 +14,7 @@ export default [
         name: "Aave ETH",
         symbol: "AETH",
         underlyingDecimals: 18,
-        factor: 0.8,
+        factor: 0.9,
         root: "weth",
       },
       {
@@ -39,7 +38,7 @@ export default [
         name: "Aave DAI",
         symbol: "ADAI",
         underlyingDecimals: 18,
-        factor: 0.64,
+        factor: 0.67,
         root: "dai",
       },
       {
@@ -51,7 +50,7 @@ export default [
         name: "Aave USDC",
         symbol: "AUSDC",
         underlyingDecimals: 6,
-        factor: 0.74,
+        factor: 0.77,
         root: "usdc",
       },
       {
@@ -63,7 +62,7 @@ export default [
         name: "Aave WBTC",
         symbol: "AWBTC",
         underlyingDecimals: 8,
-        factor: 0.7,
+        factor: 0.73,
         root: "wbtc",
       },
       {
@@ -79,6 +78,5 @@ export default [
         root: "reth",
       },
     ]),
-    eMode: 1,
   },
 ];
