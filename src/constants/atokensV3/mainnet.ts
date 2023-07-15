@@ -135,4 +135,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "ldo",
   },
+  {
+    key: "agho",
+    type: "atoken",
+    symbol: "AGHO",
+    name: "Aave GHO",
+    address: "0x786dBff3f1292ae8F92ea68Cf93c30b34B1ed04B",
+    decimals: 18,
+    root: "gho",
+  },
 ]);
