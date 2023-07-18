@@ -228,6 +228,7 @@ const keyToLogoURI = {
   sd: "https://cdn.instadapp.io/icons/tokens/stader.svg",
   sdai: "https://cdn.instadapp.io/icons/tokens/sdai.svg",
   gmx: "https://cdn.instadapp.io/icons/tokens/gmx.svg",
+  gho: "https://cdn.instadapp.io/icons/tokens/gho.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {
