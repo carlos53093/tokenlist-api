@@ -140,7 +140,7 @@ export default createTokenUtils([
     type: "atoken",
     symbol: "AGHO",
     name: "Aave GHO",
-    address: "0x786dBff3f1292ae8F92ea68Cf93c30b34B1ed04B",
+    address: "0x00907f9921424583e7ffBfEdf84F92B7B2Be4977", // As returned by Aave V3 uiDataProvider
     decimals: 18,
     root: "gho",
   },
