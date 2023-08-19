@@ -1,5 +1,5 @@
 import { Get, JsonController, Param } from "routing-controllers";
-import tokens from "../constants/atokens";
+import tokens from "../constants/erc4626";
 
 @JsonController()
 export class ERC4626Controller {
