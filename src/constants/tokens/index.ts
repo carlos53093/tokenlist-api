@@ -5,6 +5,7 @@ import avalanche from "./avalanche";
 import optimism from "./optimism";
 import mainnet from "./mainnet";
 import fantom from "./fantom";
+import base from "./base";
 
 export default createNetworkList({
   polygon,
@@ -13,4 +14,5 @@ export default createNetworkList({
   optimism,
   mainnet,
   fantom,
+  base,
 });
