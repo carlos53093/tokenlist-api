@@ -1,0 +1,58 @@
+import { createTokenUtils } from "../../utils";
+
+export default createTokenUtils([
+  {
+    key: "eth",
+    type: "token",
+    symbol: "ETH",
+    name: "Ethereum",
+    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    decimals: 18,
+    isStableCoin: false,
+  },
+  {
+    key: "dai",
+    type: "token",
+    symbol: "DAI",
+    name: "DAI Stable",
+    address: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    decimals: 18,
+    isStableCoin: true,
+  },
+  {
+    key: "usdbc",
+    type: "token",
+    symbol: "USDbC",
+    name: "USD Base Coin",
+    address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    decimals: 6,
+    isStableCoin: true,
+  },
+  {
+    key: "weth",
+    type: "token",
+    symbol: "WETH",
+    name: "Wrapped ETH",
+    address: "0x4200000000000000000000000000000000000006",
+    decimals: 18,
+    isStableCoin: false,
+  },
+  {
+    key: "cbeth",
+    type: "token",
+    symbol: "cbETH",
+    name: "Coinbase Wrapped Staked ETH",
+    address: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    decimals: 18,
+    isStableCoin: false,
+  },
+  {
+    key: "comp",
+    type: "token",
+    symbol: "COMP",
+    name: "Compound",
+    address: "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
+    decimals: 8,
+    isStableCoin: false,
+  },
+]);

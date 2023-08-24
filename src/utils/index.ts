@@ -283,5 +283,6 @@ export function createNetworkList(networks) {
     optimism: networks.optimism || [],
     arbitrum: networks.arbitrum || [],
     fantom: networks.fantom || [],
+    base: networks.base || [],
   };
 }
