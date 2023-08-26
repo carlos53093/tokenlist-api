@@ -193,6 +193,7 @@ const keyToLogoURI = {
   uniethusdt: "https://cdn.instadapp.io/icons/tokens/uniusdteth.svg",
   uniwbtceth: "https://cdn.instadapp.io/icons/tokens/uniwbtceth.svg",
   usdc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
+  usdbc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
   euroc: "https://cdn.instadapp.io/icons/tokens/euroc.svg",
   usdce: "https://cdn.instadapp.io/icons/tokens/usdce.svg",
   usdp: "https://cdn.instadapp.io/icons/tokens/usdp.svg",
