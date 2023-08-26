@@ -16,7 +16,7 @@ export default [
         decimals: 6,
         isStableCoin: true,
         logoURI: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
-        root: "usdc",
+        root: "usdbc",
       },
     ]),
     collateralTokens: createTokenUtils([
