@@ -5,6 +5,7 @@ import arbitrum from "./arbitrum";
 import avalanche from "./avalanche";
 import optimism from "./optimism";
 import fantom from "./fantom";
+import base from "./base";
 
 export default createNetworkList({
   mainnet,
@@ -13,4 +14,5 @@ export default createNetworkList({
   avalanche,
   optimism,
   fantom,
+  base,
 });
