@@ -144,9 +144,9 @@ export default createTokenUtils([
     root: "gho",
   },
   {
-    key: "aethsdai",
+    key: "asdai",
     type: "atoken",
-    symbol: "AETHSDAI",
+    symbol: "ASDAI",
     name: "Aave SDAI",
     address: "0x4C612E3B15b96Ff9A6faED838F8d07d479a8dD4c",
     decimals: 18,
