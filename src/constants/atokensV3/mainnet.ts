@@ -116,8 +116,7 @@ export default createTokenUtils([
     address: "0x7B95Ec873268a6BFC6427e7a28e396Db9D0ebc65",
     decimals: 18,
     root: "crv",
-  },
-  //   {
+  }, //   {
   //     key: "auni",
   //     type: "atoken",
   //     symbol: "AUNI",
@@ -143,5 +142,14 @@ export default createTokenUtils([
     address: "0x00907f9921424583e7ffBfEdf84F92B7B2Be4977", // As returned by Aave V3 uiDataProvider
     decimals: 18,
     root: "gho",
+  },
+  {
+    key: "aethsdai",
+    type: "atoken",
+    symbol: "AETHSDAI",
+    name: "Aave SDAI",
+    address: "0x4C612E3B15b96Ff9A6faED838F8d07d479a8dD4c",
+    decimals: 18,
+    root: "sdai",
   },
 ]);
