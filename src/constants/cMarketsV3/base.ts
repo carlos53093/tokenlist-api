@@ -37,7 +37,7 @@ export default [
         key: "eth",
         type: "token",
         symbol: "ETH",
-        name: "ETH",
+        name: "Ethereum",
         address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
         decimals: 18,
         isStableCoin: false,
@@ -51,7 +51,7 @@ export default [
   {
     marketAddress: "0x46e6b214b524310239732D51387075E0e70970bf",
     baseAsset: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-    marketName: "ETH",
+    marketName: "Ethereum",
     key: "eth",
     baseToken: createTokenUtils([
       {
