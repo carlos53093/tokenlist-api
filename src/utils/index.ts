@@ -38,6 +38,8 @@ const symbolToLogoURI = {
   WETH: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   ETH: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
   USDC: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+  USDbC:
+    "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
   "USDC.e":
     "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
   USDT: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
@@ -193,7 +195,6 @@ const keyToLogoURI = {
   uniethusdt: "https://cdn.instadapp.io/icons/tokens/uniusdteth.svg",
   uniwbtceth: "https://cdn.instadapp.io/icons/tokens/uniwbtceth.svg",
   usdc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
-  usdbc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
   euroc: "https://cdn.instadapp.io/icons/tokens/euroc.svg",
   usdce: "https://cdn.instadapp.io/icons/tokens/usdce.svg",
   usdp: "https://cdn.instadapp.io/icons/tokens/usdp.svg",
@@ -230,6 +231,7 @@ const keyToLogoURI = {
   sdai: "https://cdn.instadapp.io/icons/tokens/sdai.svg",
   gmx: "https://cdn.instadapp.io/icons/tokens/gmx.svg",
   gho: "https://cdn.instadapp.io/icons/tokens/gho.svg",
+  usdbc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {

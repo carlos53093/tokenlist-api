@@ -48,4 +48,38 @@ export default [
       },
     ]),
   },
+  {
+    marketAddress: "0x46e6b214b524310239732D51387075E0e70970bf",
+    baseAsset: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    marketName: "Ethereum",
+    key: "eth",
+    baseToken: createTokenUtils([
+      {
+        key: "eth",
+        type: "token",
+        symbol: "ETH",
+        name: "Ethereum",
+        address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        decimals: 19,
+        isStableCoin: true,
+        logoURI: "https://cdn.instadapp.io/icons/tokens/eth.svg",
+        root: "eth",
+      },
+    ]),
+    collateralTokens: createTokenUtils([
+      {
+        key: "cbeth",
+        type: "token",
+        symbol: "cbETH",
+        name: "Coinbase Wrapped Staked ETH",
+        address: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+        decimals: 18,
+        isStableCoin: false,
+        logoURI: "https://cdn.instadapp.io/icons/tokens/cbeth.svg",
+        isToken: true,
+        factor: 0.9,
+        liquidation: 0.93,
+      },
+    ]),
+  },
 ];
