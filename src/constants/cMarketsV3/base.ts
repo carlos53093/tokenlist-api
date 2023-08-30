@@ -51,7 +51,7 @@ export default [
   {
     marketAddress: "0x46e6b214b524310239732D51387075E0e70970bf",
     baseAsset: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
-    marketName: "Ethereum",
+    marketName: "ETH",
     key: "eth",
     baseToken: createTokenUtils([
       {
