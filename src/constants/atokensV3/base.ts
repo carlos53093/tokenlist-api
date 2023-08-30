@@ -9,7 +9,7 @@ export default createTokenUtils([
     address: "0xcf3D55c10DB69f28fD1A75Bd73f3D8A2d9c595ad",
     decimals: 18,
     factor: 0.67,
-    root: "eth",
+    root: "cbeth",
   },
   {
     key: "aeth",
