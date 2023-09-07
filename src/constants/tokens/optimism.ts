@@ -118,4 +118,22 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: true,
   },
+  {
+    key: "reth",
+    type: "token",
+    symbol: "RETH",
+    name: "Rocket Pool ETH",
+    address: "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D",
+    decimals: 18,
+    isStableCoin: false,
+  },
+  {
+    key: "mimatic",
+    type: "token",
+    symbol: "miMATIC",
+    name: "miMATIC Token",
+    address: "0xdFA46478F9e5EA86d57387849598dbFB2e964b02",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);

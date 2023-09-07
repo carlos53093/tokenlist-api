@@ -136,4 +136,13 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "mimatic",
+    type: "token",
+    symbol: "miMATIC",
+    name: "miMATIC Token",
+    address: "0x5c49b268c9841AFF1Cc3B0a418ff5c3442eE3F3b",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
