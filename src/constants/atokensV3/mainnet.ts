@@ -153,15 +153,15 @@ export default createTokenUtils([
     decimals: 18,
     root: "sdai",
   },
-  {
-    key: "amkr",
-    type: "atoken",
-    symbol: "AMKR",
-    name: "Aave MKR",
-    address: "0x8A458A9dc9048e005d22849F470891b840296619",
-    decimals: 18,
-    root: "mkr",
-  },
+  // {
+  //   key: "amkr",
+  //   type: "atoken",
+  //   symbol: "AMKR",
+  //   name: "Aave MKR",
+  //   address: "0x8A458A9dc9048e005d22849F470891b840296619",
+  //   decimals: 18,
+  //   root: "mkr", // Reverting from resolver
+  // },
   // {
   //   key: "arpl",
   //   type: "atoken",
