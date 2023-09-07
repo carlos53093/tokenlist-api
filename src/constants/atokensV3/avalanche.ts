@@ -111,4 +111,14 @@ export default createTokenUtils([
     factor: 0.7,
     root: "btc.b",
   },
+  {
+    key: "amimatic",
+    type: "atoken",
+    symbol: "AmiMATIC",
+    name: "Aave miMatic",
+    address: "0x8Eb270e296023E9D92081fdF967dDd7878724424",
+    decimals: 18,
+    factor: 0.75,
+    root: "mimatic",
+  },
 ]);
