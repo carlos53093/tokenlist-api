@@ -31,6 +31,16 @@ export interface IVault {
   logoURI: string;
 }
 
+export interface ICurveUSD {
+  market: string;
+  marketVersion: string;
+  key: string;
+  name: string;
+  symbol: string;
+  logoURI?: string;
+  decimals: number;
+}
+
 const symbolToLogoURI = {
   INST: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
   DAI: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
@@ -275,6 +285,28 @@ export function createVaultUtils(vaults: IVault[]) {
     getVaultByType: (type: string) =>
       vaults.find((vault) => vault.type === type),
     toJSON: () => vaults,
+  };
+}
+
+export function createCurveUtils(markets: ICurveUSD[]) {
+  markets = markets.map((market) => {
+    market.logoURI = keyToLogoURI[market.key] ?? "";
+    return market;
+  });
+
+  const getTokenByAddress = (address) =>
+    markets.find(
+      (token) => token.market.toLowerCase() === address.toLowerCase()
+    );
+  const getTokenByKey = (key) => markets.find((token) => token.key === key);
+
+  return {
+    allMarkets: markets,
+    marketAddresses: markets.map((market) => market.market),
+    marketVersions: markets.map((market) => market.marketVersion),
+    getTokenByAddress,
+    getTokenByKey,
+    toJSON: () => markets,
   };
 }
 
