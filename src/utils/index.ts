@@ -242,6 +242,8 @@ const keyToLogoURI = {
   gmx: "https://cdn.instadapp.io/icons/tokens/gmx.svg",
   gho: "https://cdn.instadapp.io/icons/tokens/gho.svg",
   usdbc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
+  sfrxeth: "https://cdn.instadapp.io/icons/tokens/sfrxeth.svg",
+  tbtc: "https://cdn.instadapp.io/icons/tokens/tbtc.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {
