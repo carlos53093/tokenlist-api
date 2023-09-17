@@ -25,14 +25,6 @@ export default {
       decimals: 8,
     },
     {
-      market: "0xac3e018457b222d93114458476f3e3416abbe38f",
-      marketVersion: "0",
-      symbol: "sfrxETH",
-      key: "sfrxeth",
-      name: "Staked Frax Ether",
-      decimals: 18,
-    },
-    {
       market: "0x18084fba666a33d37592fa2633fd49a74dd93a88",
       marketVersion: "0",
       symbol: "tBTC",
