@@ -71,5 +71,8 @@ export default createTokenUtils([
   { key: 'cbeth', type: 'token', symbol: 'cbETH', name: 'Coinbase Wrapped Staked ETH', address: '0xBe9895146f7AF43049ca1c1AE358B0541Ea49704', decimals: 18, isStableCoin: false },
   { key: 'reth', type: 'token', symbol: 'rETH', name: 'Rocket Pool ETH', address: '0xae78736Cd615f374D3085123A210448E74Fc6393', decimals: 18, isStableCoin: false },
   { key: 'sdai', type: 'token', symbol: 'sDAI', name: 'Savings Dai', address: '0x83F20F44975D03b1b09e64809B757c47f942BEeA', decimals: 18, isStableCoin: true},
-  { key: 'gho', type: 'token', symbol: 'GHO', name: 'Gho Token', address: '0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f', decimals: 18, isStableCoin: true}
+  { key: 'gho', type: 'token', symbol: 'GHO', name: 'Gho Token', address: '0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f', decimals: 18, isStableCoin: true},
+  { key: 'sfrxeth', type: 'token', symbol: 'sfrxETH', name: 'Staked Frax Ether', address: '0xac3E018457B222d93114458476f3E3416Abbe38F', decimals: 18, isStableCoin: false},
+  { key: 'tbtc', type: 'token', symbol: 'tBTC', name: 'tBTC v2', address: '0x18084fba666a33d37592fa2633fd49a74dd93a88', decimals: 18, isStableCoin: false},
+  { key: 'crvusd', type: 'token', symbol: 'crvUSD', name: 'Curve.Fi USD Stablecoin', address: '0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E', decimals: 18, isStableCoin: true},
 ])
