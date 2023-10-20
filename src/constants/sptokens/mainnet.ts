@@ -70,4 +70,13 @@ export default createTokenUtils([
     decimals: 18,
     root: "reth",
   },
+  {
+    key: "spusdt",
+    type: "sptoken",
+    symbol: "SPUSDT",
+    name: "Spark USDT",
+    address: "0xe7dF13b8e3d6740fe17CBE928C7334243d86c92f",
+    decimals: 6,
+    root: "usdt",
+  },
 ]);
