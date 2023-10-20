@@ -62,6 +62,15 @@ export default createTokenUtils([
     root: "wsteth",
   },
   {
+    key: "spreth",
+    type: "sptoken",
+    symbol: "SPRETH",
+    name: "Spark RETH",
+    address: "0x9985dF20D7e9103ECBCeb16a84956434B6f06ae8",
+    decimals: 18,
+    root: "reth",
+  },
+  {
     key: "spusdt",
     type: "sptoken",
     symbol: "SPUSDT",
