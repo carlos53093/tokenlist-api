@@ -4,19 +4,19 @@ export default [
   {
     marketAddress: "0xF25212E676D1F7F89Cd72fFEe66158f541246445",
     baseAsset: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-    marketName: "USDC",
-    key: "usdc",
+    marketName: "USDC.e",
+    key: "usdce",
     baseToken: createTokenUtils([
       {
-        key: "usdc",
+        key: "usdce",
         type: "token",
-        symbol: "USDC",
+        symbol: "USDC.e",
         name: "USD Coin",
         address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
         decimals: 6,
         isStableCoin: true,
         logoURI: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
-        root: "usdc",
+        root: "usdce",
       },
     ]),
     collateralTokens: createTokenUtils([

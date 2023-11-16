@@ -29,7 +29,7 @@ export default createTokenUtils([
     address: "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
     decimals: 6,
     factor: 0.825,
-    root: "usdc",
+    root: "usdce",
   },
   {
     key: "ausdt",
