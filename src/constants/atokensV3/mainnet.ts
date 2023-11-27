@@ -216,9 +216,9 @@ export default createTokenUtils([
     root: "ens",
   },
   {
-    key: "aethcrvusd",
+    key: "acrvusd",
     type: "atoken",
-    symbol: "AETHCRVUSD",
+    symbol: "ACRVUSD",
     name: "Aave CRVUSD",
     address: "0xb82fa9f31612989525992FCfBB09AB22Eff5c85A",
     decimals: 18,
