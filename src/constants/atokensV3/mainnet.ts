@@ -152,8 +152,7 @@ export default createTokenUtils([
     address: "0x4C612E3B15b96Ff9A6faED838F8d07d479a8dD4c",
     decimals: 18,
     root: "sdai",
-  },
-  // {
+  }, // {
   //   key: "amkr",
   //   type: "atoken",
   //   symbol: "AMKR",
@@ -215,5 +214,14 @@ export default createTokenUtils([
     address: "0x545bD6c032eFdde65A377A6719DEF2796C8E0f2e",
     decimals: 18,
     root: "ens",
+  },
+  {
+    key: "acrvusd",
+    type: "atoken",
+    symbol: "ACRVUSD",
+    name: "Aave CRVUSD",
+    address: "0xb82fa9f31612989525992FCfBB09AB22Eff5c85A",
+    decimals: 18,
+    root: "crvusd",
   },
 ]);
