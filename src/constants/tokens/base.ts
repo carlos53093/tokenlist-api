@@ -52,7 +52,7 @@ export default createTokenUtils([
     symbol: "COMP",
     name: "Compound",
     address: "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
-    decimals: 8,
+    decimals: 18,
     isStableCoin: false,
   },
 ]);
