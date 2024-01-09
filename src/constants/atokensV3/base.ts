@@ -31,4 +31,13 @@ export default createTokenUtils([
     factor: 0.77,
     root: "usdbc",
   },
+  {
+    key: "awsteth",
+    type: "atoken",
+    symbol: "AWSTETH",
+    name: "Aave WSTETH",
+    address: "0x99CBC45ea5bb7eF3a5BC08FB1B7E56bB2442Ef0D",
+    decimals: 18,
+    root: "wsteth",
+  },
 ]);
