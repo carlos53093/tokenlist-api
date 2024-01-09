@@ -32,9 +32,9 @@ export default createTokenUtils([
     root: "usdbc",
   },
   {
-    key: "abaswsteth",
+    key: "awsteth",
     type: "atoken",
-    symbol: "ABASWSTETH",
+    symbol: "AWSTETH",
     name: "Aave WSTETH",
     address: "0x99CBC45ea5bb7eF3a5BC08FB1B7E56bB2442Ef0D",
     decimals: 18,
