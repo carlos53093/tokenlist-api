@@ -75,4 +75,6 @@ export default createTokenUtils([
   { key: 'sfrxeth', type: 'token', symbol: 'sfrxETH', name: 'Staked Frax Ether', address: '0xac3E018457B222d93114458476f3E3416Abbe38F', decimals: 18, isStableCoin: false},
   { key: 'tbtc', type: 'token', symbol: 'tBTC', name: 'tBTC v2', address: '0x18084fba666a33d37592fa2633fd49a74dd93a88', decimals: 18, isStableCoin: false},
   { key: 'crvusd', type: 'token', symbol: 'crvUSD', name: 'Curve.Fi USD Stablecoin', address: '0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E', decimals: 18, isStableCoin: true},
+  { key: 'bbeth', type: 'token', symbol: 'bbETH', name: 'Flagship ETH', address: '0x38989BBA00BDF8181F4082995b3DEAe96163aC5D', decimals: 18, isStableCoin: false},
+  { key: 'steakusdc', type: 'token', symbol: 'steakUSDC', name: 'Steakhouse USDC', address: '0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB', decimals: 18, isStableCoin: true},
 ])
