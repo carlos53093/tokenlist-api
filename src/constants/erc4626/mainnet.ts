@@ -16,6 +16,7 @@ export default createTokenUtils([
     name: "Flagship ETH",
     address: "0x38989BBA00BDF8181F4082995b3DEAe96163aC5D",
     decimals: 18,
+    isMetaMorpho: true,
   },
   {
     key: "steakusdc",
@@ -24,5 +25,6 @@ export default createTokenUtils([
     name: "Steakhouse USDC",
     address: "0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
     decimals: 18,
+    isMetaMorpho: true,
   },
 ]);
