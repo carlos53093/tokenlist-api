@@ -41,6 +41,26 @@ export interface ICurveUSD {
   decimals: number;
 }
 
+type morphoTokenObject = {
+  key: string;
+  type: string;
+  address: string;
+  decimals: number;
+  name: string;
+  symbol: string;
+  logoURI?: string;
+  root: string;
+};
+
+export interface IMorphoBlueMarkets {
+  id: string;
+  oracle: string;
+  irm: string;
+  ltv: number;
+  collateral: morphoTokenObject;
+  debt: morphoTokenObject;
+}
+
 const symbolToLogoURI = {
   INST: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
   DAI: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
@@ -311,6 +331,48 @@ export function createCurveUtils(markets: ICurveUSD[]) {
     marketVersions: markets.map((market) => market.marketVersion),
     getTokenByAddress,
     getTokenByKey,
+    toJSON: () => markets,
+  };
+}
+
+export function createMorphoBlueMarketUtils(markets: IMorphoBlueMarkets[]) {
+  markets = markets.map((market) => {
+    market.collateral.logoURI = keyToLogoURI[market.collateral.key] ?? "";
+    market.debt.logoURI = keyToLogoURI[market.debt.key] ?? "";
+
+    return market;
+  });
+
+  const getCollTokenByAddress = (address) =>
+    markets.find(
+      (market) =>
+        market.collateral.address.toLowerCase() === address.toLowerCase()
+    );
+  const getCollTokenByKey = (key) =>
+    markets.find((market) => market.collateral.key === key);
+  const collTokenKeys = markets.map((market) => market.collateral.key);
+  const collRootTokens = markets.map((market) => market.collateral.root);
+
+  const getDebtTokenByAddress = (address) =>
+    markets.find(
+      (market) => market.debt.address.toLowerCase() === address.toLowerCase()
+    );
+  const getDebtTokenByKey = (key) =>
+    markets.find((market) => market.debt.key === key);
+  const debtTokenKeys = markets.map((market) => market.debt.key);
+  const debtRootTokens = markets.map((market) => market.debt.root);
+
+  return {
+    allMarkets: markets,
+    getCollTokenByAddress,
+    getCollTokenByKey,
+    collTokenKeys,
+    collRootTokens,
+    getDebtTokenByAddress,
+    getDebtTokenByKey,
+    debtTokenKeys,
+    debtRootTokens,
+    getMarketById: (id: string) => markets.find((market) => market.id === id),
     toJSON: () => markets,
   };
 }
