@@ -54,9 +54,6 @@ type morphoTokenObject = {
 
 export interface IMorphoBlueMarkets {
   id: string;
-  oracle: string;
-  irm: string;
-  ltv: number;
   collateral: morphoTokenObject;
   debt: morphoTokenObject;
 }
