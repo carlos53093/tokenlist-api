@@ -41,21 +41,13 @@ export interface ICurveUSD {
   decimals: number;
 }
 
-type morphoTokenObject = {
-  key: string;
-  type: string;
-  address: string;
-  decimals: number;
-  name: string;
-  symbol: string;
-  logoURI?: string;
-  root: string;
-};
-
 export interface IMorphoBlueMarkets {
   id: string;
-  collateral: morphoTokenObject;
-  debt: morphoTokenObject;
+  oracle: string;
+  irm: string;
+  ltv: number;
+  collateralKey: string;
+  debtKey: string;
 }
 
 const symbolToLogoURI = {
@@ -333,42 +325,8 @@ export function createCurveUtils(markets: ICurveUSD[]) {
 }
 
 export function createMorphoBlueMarketUtils(markets: IMorphoBlueMarkets[]) {
-  markets = markets.map((market) => {
-    market.collateral.logoURI = keyToLogoURI[market.collateral.key] ?? "";
-    market.debt.logoURI = keyToLogoURI[market.debt.key] ?? "";
-
-    return market;
-  });
-
-  const getCollTokenByAddress = (address) =>
-    markets.find(
-      (market) =>
-        market.collateral.address.toLowerCase() === address.toLowerCase()
-    );
-  const getCollTokenByKey = (key) =>
-    markets.find((market) => market.collateral.key === key);
-  const collTokenKeys = markets.map((market) => market.collateral.key);
-  const collRootTokens = markets.map((market) => market.collateral.root);
-
-  const getDebtTokenByAddress = (address) =>
-    markets.find(
-      (market) => market.debt.address.toLowerCase() === address.toLowerCase()
-    );
-  const getDebtTokenByKey = (key) =>
-    markets.find((market) => market.debt.key === key);
-  const debtTokenKeys = markets.map((market) => market.debt.key);
-  const debtRootTokens = markets.map((market) => market.debt.root);
-
   return {
     allMarkets: markets,
-    getCollTokenByAddress,
-    getCollTokenByKey,
-    collTokenKeys,
-    collRootTokens,
-    getDebtTokenByAddress,
-    getDebtTokenByKey,
-    debtTokenKeys,
-    debtRootTokens,
     getMarketById: (id: string) => markets.find((market) => market.id === id),
     toJSON: () => markets,
   };
