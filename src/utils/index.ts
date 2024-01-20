@@ -41,6 +41,15 @@ export interface ICurveUSD {
   decimals: number;
 }
 
+export interface IMorphoBlueMarkets {
+  id: string;
+  oracle: string;
+  irm: string;
+  ltv: number;
+  collateralKey: string;
+  debtKey: string;
+}
+
 const symbolToLogoURI = {
   INST: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
   DAI: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
@@ -311,6 +320,14 @@ export function createCurveUtils(markets: ICurveUSD[]) {
     marketVersions: markets.map((market) => market.marketVersion),
     getTokenByAddress,
     getTokenByKey,
+    toJSON: () => markets,
+  };
+}
+
+export function createMorphoBlueMarketUtils(markets: IMorphoBlueMarkets[]) {
+  return {
+    allMarkets: markets,
+    getMarketById: (id: string) => markets.find((market) => market.id === id),
     toJSON: () => markets,
   };
 }
