@@ -45,7 +45,7 @@ export interface IMorphoBlueMarkets {
   id: string;
   oracle: string;
   irm: string;
-  ltv: number;
+  ltv: string | number;
   collateralKey: string;
   debtKey: string;
 }
