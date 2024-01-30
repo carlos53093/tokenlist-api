@@ -235,4 +235,22 @@ export default createTokenUtils([
     decimals: 18,
     isStableCoin: false,
   },
+  {
+    key: "fiusdc",
+    type: "token",
+    symbol: "fiUSDC",
+    name: "Fluid Interest USD Coin (PoS)",
+    address: "0xd3be3E2dFa8B5fa249cb94eCf2a439DaF0A1Ab20",
+    decimals: 18,
+    isStableCoin: false,
+  },
+  {
+    key: "fiweth",
+    type: "token",
+    symbol: "fiWETH",
+    name: "Fluid Interest Wrapped Ether",
+    address: "0xd3502E42592A08d7157B642bBd092ddf39e3ae8F",
+    decimals: 18,
+    isStableCoin: false,
+  },
 ]);
