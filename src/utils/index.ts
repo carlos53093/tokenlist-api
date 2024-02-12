@@ -258,6 +258,7 @@ const keyToLogoURI = {
   steakusdc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
   fiusdc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
   fiweth: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
+  fimatic: "https://cdn.instadapp.io/icons/tokens/matic.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {
