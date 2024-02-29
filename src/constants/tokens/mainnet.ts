@@ -77,4 +77,7 @@ export default createTokenUtils([
   { key: 'crvusd', type: 'token', symbol: 'crvUSD', name: 'Curve.Fi USD Stablecoin', address: '0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E', decimals: 18, isStableCoin: true},
   { key: 'bbeth', type: 'token', symbol: 'bbETH', name: 'Flagship ETH', address: '0x38989BBA00BDF8181F4082995b3DEAe96163aC5D', decimals: 18, isStableCoin: false},
   { key: 'steakusdc', type: 'token', symbol: 'steakUSDC', name: 'Steakhouse USDC', address: '0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB', decimals: 18, isStableCoin: true},
+  { key: 'bbusdt', type: 'token', symbol: 'bbUSDT', name: 'Flagship USDT', address: '0x2C25f6C25770fFEC5959D34B94Bf898865e5D6b1', decimals: 18, isStableCoin: true},
+  { key: 're7weth', type: 'token', symbol: 'Re7WETH', name: 'Re7 WETH', address: '0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0', decimals: 18, isStableCoin: false},
+  { key: 'steakusdt', type: 'token', symbol: 'steakUSDT', name: 'Steakhouse USDT', address: '0xbEef047a543E45807105E51A8BBEFCc5950fcfBa', decimals: 18, isStableCoin: true},
 ])
