@@ -80,4 +80,7 @@ export default createTokenUtils([
   { key: 'bbusdt', type: 'token', symbol: 'bbUSDT', name: 'Flagship USDT', address: '0x2C25f6C25770fFEC5959D34B94Bf898865e5D6b1', decimals: 18, isStableCoin: true},
   { key: 're7weth', type: 'token', symbol: 'Re7WETH', name: 'Re7 WETH', address: '0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0', decimals: 18, isStableCoin: false},
   { key: 'steakusdt', type: 'token', symbol: 'steakUSDT', name: 'Steakhouse USDT', address: '0xbEef047a543E45807105E51A8BBEFCc5950fcfBa', decimals: 18, isStableCoin: true},
+  { key: 'steakusdt', type: 'token', symbol: 'steakUSDT', name: 'Steakhouse USDT', address: '0xbEef047a543E45807105E51A8BBEFCc5950fcfBa', decimals: 18, isStableCoin: true},
+  { key: 'weeth', type: 'token', symbol: 'weETH', name: 'Wrapped eETH', address: '0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee', decimals: 18, isStableCoin: false},
+  { key: 'oseth', type: 'token', symbol: 'osETH', name: 'Staked ETH', address: '0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38', decimals: 18, isStableCoin: false},
 ])
