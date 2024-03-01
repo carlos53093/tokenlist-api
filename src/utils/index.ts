@@ -259,6 +259,11 @@ const keyToLogoURI = {
   fiusdc: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
   fiweth: "https://cdn.instadapp.io/icons/tokens/usdc.svg",
   fimatic: "https://cdn.instadapp.io/icons/tokens/matic.svg",
+  bbusdt: "https://cdn.instadapp.io/icons/tokens/usdt.svg",
+  re7weth: "https://cdn.instadapp.io/icons/tokens/eth.svg",
+  steakusdt: "https://cdn.instadapp.io/icons/tokens/usdt.svg",
+  weeth: "https://cdn.instadapp.io/icons/tokens/weeth.svg",
+  oseth: "https://cdn.instadapp.io/icons/tokens/oseth.svg",
 };
 
 export function createTokenUtils(tokens: IToken[]) {
